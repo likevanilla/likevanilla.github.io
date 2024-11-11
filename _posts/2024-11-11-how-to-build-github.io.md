@@ -1,10 +1,9 @@
 ---
-title: [Github] Github.io Blog 만들기 
+layout: post
+title: "[Github] Github.io Blog 만들기"
 description: Github에서 Bolg를 만들고 싶을 때는 어떻게 하면 될까?
-author: Jeonghyuk Lee
 
-date: 2024-11-11
-last_modified_at: 2024-11-11
+date: 2024-11-11 17:44:20 +0900
 
 categories: [Blogging, Tutorial]
 tags: [Blog, jekyll, Github, Git]
@@ -25,7 +24,7 @@ Github Pages는 개발자분들이 블로그, 개인 프로젝트 전시용, 포
 
 ## 시작하기 전에
 
-- 운영체제는 Windows 64blt를 기준으로 설명을 합니다.
+- 운영체제는 `Windows 64blt`를 기준으로 설명을 합니다.
 - [Github](https://github.com/signup?source=login) 회원가입
 - [Visual Studio Code](https://code.visualstudio.com/download), [Git](https://git-scm.com/downloads) 설치
 - [Ruby](https://rubyinstaller.org/downloads/) (x64) 설치
@@ -38,7 +37,7 @@ Github Pages는 개발자분들이 블로그, 개인 프로젝트 전시용, 포
 2. Repository name은 user_name.github.io로 생성한다.
 ex) likevanilla.github.io
 3. Public, Add a README file을 선택해준다.
-4. Create repository
+4. `Create repository`
 
 ### ⚙️ Settings
 
@@ -48,15 +47,15 @@ ex) likevanilla.github.io
 
 ### ❌ 접속이 되지 않는 경우
 
-1. Settings - Pages - Branch를 main으로 변경
+1. Settings - Pages - Branch를 `main`으로 변경
 2. https://user_name/github.io
 
 ### Visual Studio Code를 사용하여 로컬에서 작업하기
 
-1. Start Visual Stdio code
-2. Press F1
-3. Search git clone
-4. Click Git:Clone
+1. Start `Visual Stdio code`
+2. Press `F1`
+3. Search `git clone`
+4. Click `Git:Clone`
 5. Copy and paste Repository URL
 6. Choose file to clone
 
@@ -67,8 +66,8 @@ ex) likevanilla.github.io
 
 ### 로컬 변경사항 적용
 
-- 클론한 Repository 파일 열기
-- index.html 파일 생성 후 아래 내용 작성
+1. 클론한 Repository 파일 열기
+2. `index.html` 파일 생성 후 아래 내용 작성
 
 ```html
 <html>
@@ -78,29 +77,31 @@ ex) likevanilla.github.io
 </html>
 ```
 
-- 좌측 Sorce Control(소스 제어) 선택
-- + 버튼을 클릭하여 변경 사항 추가
-- 커밋 메세지 입력, 커밋 & 푸시
-- https://user_name.github.io 확인
+3. 좌측 `Sorce Control(소스 제어)` 선택
+4. `+` 버튼을 클릭하여 변경 사항 추가
+5. 커밋 메세지 입력, 커밋 & 푸시
+6. https://user_name.github.io 또는 http://user_name/github.io 확인
 
 ## 로컬 개발 환경 구축
 
-1. 윈도우 키 또는 시작 버튼을 누르고 `Start Command Prompt with Ruby` 관리자 권한으로 실행
-2. Repository가 있는 위치로 이동
+- 윈도우 키 또는 시작 버튼을 누르고 `Start Command Prompt with Ruby` 관리자 권한으로 실행
+- Repository가 있는 위치로 이동
 
 ```bash
 # 예시
 cd C:\Users\wjdgu\Documents\blog\likevanilla.github.io
+# 또는
+cd C:/Users/wjdgu/Documents/blog/likevanilla.github.io
 ```
 
-1. jekyll, bundler, webrick 설치
+- `jekyll, bundler, webrick` 설치
 
 ```bash
 gem install jekyll bundler
 gem install webrick
 ```
 
-1. 설치 확인
+- 설치 확인
 
 ```bash
 ruby -v
@@ -110,7 +111,7 @@ bundler -v
 
 ### Jekyll 서버 구축
 
-1. jekyll 생성
+- `jekyll` 생성
 
 ```bash
 jekyll new ./
@@ -118,19 +119,21 @@ jekyll new ./
 jekyll new ./ --force
 ```
 
-1. bundle install
+- bundle install
 
 ```bash
 bundle install
 ```
 
-1. jekyll 서버 실행
+- jekyll 서버 실행
 
 ```bash
 bundle exec jekyll serve
 ```
 
-1. https://127.0.0.1:4000/ 또는 https://localhost:4000/ 접속 확인
+- 접속 확인
+    a. [https://127.0.0.1:4000/](https://127.0.0.1:4000/) 또는 [https://localhost:4000/](https://localhost:4000/)
+    b. [http://127.0.0.1:4000/](https://127.0.0.1:4000/) 또는 [http://localhost:4000/](https://localhost:4000/)
 
 ## Jekyll 테마 적용
 
@@ -138,9 +141,9 @@ bundle exec jekyll serve
 
 - 위에서 `chirpy theme`을 설치하지 않았다면 아래 사이트 중에서 원하는 theme을 골라서 설치하세요. 설명은 `chirpy theme`을 설치했다는 기준으로 진행합니다.
     - [http://jekyllthemes.org](http://jekyllthemes.org/)
-    - https://jekyllthemes.io/free
+    - [https://jekyllthemes.io/free](https://jekyllthemes.io/free)
     - [https://themes.jekyllrc.org](https://themes.jekyllrc.org/)
-    - https://github.com/topics/jekyll-theme
+    - [https://github.com/topics/jekyll-theme](https://github.com/topics/jekyll-theme)
 1. `jekyll-theme-cirpy-master.zip` 압축을 풀고 모든 내용을 user_name.github.io 파일 안에 복사(덮어쓰기)
 2. bundle install
 
@@ -148,23 +151,26 @@ bundle exec jekyll serve
 bundle install
 ```
 
-1. jekyll 서버 실행
+3. jekyll 서버 실행
 
 ```bash
 bundle exec jekyll serve
 ```
 
-1. https://127.0.0.1:4000/ 또는 https://localhost:4000/ 접속 확인
-2. 좌측 Sorce Control(소스 제어) 선택
-3. + 버튼을 클릭하여 변경 사항 추
-4. 커밋 메세지 입력, 커밋 & 푸시
+4. 접속 확인
+    a. [https://127.0.0.1:4000/](https://127.0.0.1:4000/)또는 [https://localhost:4000/](https://localhost:4000/)
+
+    b. [http://127.0.0.1:4000/](https://127.0.0.1:4000/) 또는 [http://localhost:4000/](https://localhost:4000/)
+5. 좌측 `Sorce Control(소스 제어)` 선택
+6. `+` 버튼을 클릭하여 변경 사항 추
+7. 커밋 메세지 입력, 커밋 & 푸시
 
 ## Github Action 적용
 
 1. user_name/github.io 저장소(repository)로 이동
-2. Settings - Pages - Source - Github Actions 선택
-3. Configure 클릭
-4. Commit changes… 클릭
+2. Settings - Pages - Source - `Github Actions` 선택
+3. `Configure` 클릭
+4. `Commit changes…` 클릭
 5. Visual Studio Code에서 Pull 또는 git clone 과정 다시하기
 
 ## Node.js 설치
@@ -188,7 +194,7 @@ npm install && npm run build
 
 ## Theme 상세 설정
 
-1. `.gitignore` 파일 수정
+- `.gitignore` 파일 수정
 
 ```
 # Misc
@@ -196,7 +202,7 @@ npm install && npm run build
 # assets/js/dist
 ```
 
-1. `_config.yml` 파일 수정
+- `_config.yml` 파일 수정
     - 추가적으로 다른 부분의 정보들을 바꿔도 됨(github, twitter, social …)
 
 ```
@@ -211,7 +217,7 @@ github:
   username: karina
 ```
 
-1. 좌측 Sorce Control(소스 제어) 선택
-2. + 버튼을 클릭하여 변경 사항 추
+1. 좌측 `Sorce Control(소스 제어)` 선택
+2. `+` 버튼을 클릭하여 변경 사항 추
 3. 커밋 메세지 입력, 커밋 & 푸시
-4. https://user_name.github.io 확인
+4. https://user_name.github.io 또는 http://user_name/github.io 확인
