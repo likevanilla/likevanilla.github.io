@@ -6,12 +6,13 @@ author: Jeonghyuk Lee
 date: 2024-11-11
 last_modified_at: 2024-11-11
 
-categories: Tutorial
+categories: [Blogging, Tutorial]
 tags: [Blog, jekyll, Github, Git]
 
 pin: true
 toc: true
 toc_sticky: true
+published: true
 ---
 
 # Windows에서 Github Blog 만들기 (github.io)
