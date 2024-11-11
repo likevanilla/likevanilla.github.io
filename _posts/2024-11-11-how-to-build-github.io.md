@@ -6,7 +6,7 @@ author: Jeonghyuk Lee
 date: 2024-11-11
 last_modified_at: 2024-11-11
 
-categories: Blog
+categories: Tutorial
 tags: [Blog, jekyll, Github, Git]
 
 pin: true
