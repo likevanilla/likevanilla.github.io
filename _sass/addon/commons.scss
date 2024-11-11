@@ -688,8 +688,9 @@ $btn-mb: 0.5rem;
   height: 100%;
   overflow-y: auto;
   width: $sidebar-width;
-  background: var(--sidebar-bg);
-  border-right: 1px solid var(--sidebar-border-color);
+  background: url(/assets/img/backgound.jpg);
+  background-size: 250%;
+  background-position: center;
 
   /* Hide scrollbar for IE, Edge and Firefox */
   -ms-overflow-style: none; /* IE and Edge */
