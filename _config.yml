@@ -116,10 +116,7 @@ comments:
   # utterances settings › https://utteranc.es/
   utterances:
     repo: "likevanilla/likevanilla.github.io" # <gh-username>/<repo>
-    issue-term="pathname" # < url | pathname | title | ...>
-    label="blog comment"
-    theme="github-light"
-    crossorigin="anonymous"
+    issue-term="pathname" # < url | pathname | title | ..>
   # Giscus options › https://giscus.app
   giscus:
     repo: # <gh-username>/<repo>
