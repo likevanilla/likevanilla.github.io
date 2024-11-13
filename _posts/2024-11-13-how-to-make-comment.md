@@ -47,7 +47,7 @@ published: true
 5. Envale Utterances 문단을 보면 아래 코드박스가 있을 것이다. 이 코드박스 안에서 먼저 `repo`와 `issue-term` 부분만 적용을 할 것이다.
     - _config.yml에서 comment: 부분을 찾는다.
     - utterances: 아래 `repo`와 `issue-term` 부분을 사이트에서 복사하고 붙여넣는다.
-```yml
+```
   utterances:
     repo: "likevanilla/likevanilla.github.io" # <gh-username>/<repo>
     issue-term: "pathname" # < url | pathname | title | ..>
