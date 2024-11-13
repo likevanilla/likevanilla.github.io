@@ -32,16 +32,10 @@ published: true
 
 1. [https://utteranc.es/](https://utteranc.es/) 접속
 
-&nbsp;
-
 2. repo: owner/repo 작성
 예시: likevanilla/likevanilla.github.io
 
-&nbsp;
-
 3. Issue title contains page pathname 체크
-
-&nbsp;
 
 4. label (optional): 위에서 말한 label, issue 기능
     - 자신의 github.io 레포지토리에 들어간다.
@@ -49,8 +43,6 @@ published: true
     - `Labels` 클릭
     - `New label` 클릭
     - 원하는 이름으로 Label name 작성, 설명과 색상도 자유롭게 설정할 수 있다.
-
-&nbsp;
 
 5. Envale Utterances 문단을 보면 아래 코드박스가 있을 것이다. 이 코드박스 안에서 먼저 `repo`와 `issue-term` 부분만 적용을 할 것이다.
     - _config.yml에서 comment: 부분을 찾는다.
@@ -61,21 +53,13 @@ published: true
     issue-term: "pathname" # < url | pathname | title | ..>
 ```
 
-&nbsp;
-
 6. 이번에는 `Copy` 버튼을 눌러서 전체를 복사한다.
     - _layout/post.html로 들어간다.
     - 마지막 줄에 붙여넣기를 해준다.
 
-&nbsp;
-
 7. 좌측 `Sorce Control(소스 제어)` 선택
 
-&nbsp;
-
 8. `+` 버튼을 클릭하여 변경 사항 추
-
-&nbsp;
 
 9. 커밋 메세지 입력, 커밋 & 푸시
 
