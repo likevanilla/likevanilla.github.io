@@ -3,7 +3,8 @@ layout: post
 title: "[Github] Github.io Blog 만들기"
 description: Github에서 Bolg를 만들고 싶을 때는 어떻게 하면 될까?
 
-date: 2024-11-11 17:44:20 +0900
+date: 2024-11-11 
+last_modified_at: 2024-11-13 
 
 categories: [Blogging, Tutorial]
 tags: [Blog, jekyll, Github, Git]
@@ -162,7 +163,7 @@ bundle exec jekyll serve
 
     b. [http://127.0.0.1:4000/](https://127.0.0.1:4000/) 또는 [http://localhost:4000/](https://localhost:4000/)
 5. 좌측 `Sorce Control(소스 제어)` 선택
-6. `+` 버튼을 클릭하여 변경 사항 추
+6. `+` 버튼을 클릭하여 변경 사항 추가
 7. 커밋 메세지 입력, 커밋 & 푸시
 
 ## Github Action 적용
