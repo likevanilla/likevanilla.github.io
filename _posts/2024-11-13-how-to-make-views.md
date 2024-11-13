@@ -23,6 +23,8 @@ published: true
  쓸모없는 이유는 현재 내 블로그는 주소창에 직접 입력해야 들어올 수 있기 때문이다.  
  다음 포스팅은 **Google**과 **Naver**에서 검색을 통해 들어올 수 있게 해주는   내용에 대해 포스팅 할 예정이다.
 
+&nbsp;
+
 ### GoatCounter 적용하기
 > Goatcounter는 조회수 외에도 다양한 분석을 해주고 보여준다.
 
@@ -55,6 +57,8 @@ published: true
 3. `Site settings` - `Allow adding visitor counts on your wevsite` 체크
 
 4. 아래로 스크롤 후 `Save` 클릭
+
+&nbsp;
 
 ### 마무리
 
