@@ -3,7 +3,7 @@ layout: post
 title: "[Github] Github Blog를 검색 엔진에 노출시키기"
 description: Naver나 Google에 내 Blog를 검색하면 나오게! 
 
-date: 2024-11-13 19:90:00 +0900
+date: 2024-11-13 19:00:00 +0900
 
 categories: [Blogging, Tutorial]
 tags: [Blog, jekyll, Github, Git]
