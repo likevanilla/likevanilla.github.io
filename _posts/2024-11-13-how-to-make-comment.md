@@ -3,14 +3,10 @@ layout: post
 title: "[Github] Github Blog에 댓글 기능 추가하기"
 description: Github Blog 게시물에 댓글을 달 수 있을까? 
 
-date: 2024-11-13 15:30:00 +0900
+categories: devlog
+permalink: '/:categories/:year/:month/:day/:title'
 
-categories: [Blogging, Tutorial]
-tags: [Blog, jekyll, Github, Git]
 
-pin: true
-toc: true
-toc_sticky: true
 published: true
 ---
 

@@ -3,14 +3,9 @@ layout: post
 title: "[Github] Github Blog에 조회수 기능 추가하기"
 description: 몇 명의 사람이 내 게시물을 봤을까?
 
-date: 2024-11-13 16:30:00 +0900
+categories: devlog
+permalink: '/:categories/:year/:month/:day/:title'
 
-categories: [Blogging, Tutorial]
-tags: [Blog, jekyll, Github, Git]
-
-pin: true
-toc: true
-toc_sticky: true
 published: true
 ---
 
