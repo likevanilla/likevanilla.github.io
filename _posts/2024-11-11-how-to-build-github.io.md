@@ -1,12 +1,11 @@
 ---
 layout: post
 title: "[Github] Github.io Blog 만들기"
-description: >
-Github에서 Bolg를 만들고 싶을 때는 어떻게 하면 될까?
+# description: Github에서 Bolg를 만들고 싶을 때는 어떻게 하면 될까?
+categories: devlog
+permalink: '/:categories/:year/:month/:day/:title'
 
-categories: [devlog]
-sitemap: false
-tags: [Github, jekyll, Blog, Git]
+published: true
 ---
 
 # Windows에서 Github Blog 만들기 (github.io)
