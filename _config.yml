@@ -67,7 +67,7 @@ legal:
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2024. likevanilla All rights reserved.
-banner:                Banner gif by minimoss
+copyright:                Banner gif by minimoss
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
