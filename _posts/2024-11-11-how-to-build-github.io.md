@@ -10,6 +10,13 @@ published: true
 {% include hits.md %}
 
 
+## WARNING!
+> 이 글은 chirpy 테마를 기준으로 작성된 글이며 현재는 Hydejack 테마로 바꾼 상태라 원하시는 정보와 다를 수 있습니다! 
+{:.lead}
+
+
+
+
 ## Windows에서 Github Blog 만들기 (github.io)
 
 ## Github Blog란?
