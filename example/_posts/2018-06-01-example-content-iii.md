@@ -1,5 +1,5 @@
-<!-- ---
-layout: post
+---
+layout: 
 title: Example Content III
 description: >
   A page showing Hydejack-specific markdown content.
@@ -100,4 +100,4 @@ I'm faded, faded, faded.
 [ksyntab]:https://kramdown.gettalong.org/syntax.html#tables
 [ksynmath]: https://kramdown.gettalong.org/syntax.html#math-blocks
 [katex]: https://khan.github.io/KaTeX/
-[rtable]: https://dbushell.com/2016/03/04/css-only-responsive-tables/ -->
+[rtable]: https://dbushell.com/2016/03/04/css-only-responsive-tables/

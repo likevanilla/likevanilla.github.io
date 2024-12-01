@@ -1,5 +1,5 @@
-<!-- ---
-layout: post
+---
+layout: 
 title: Example Content
 description: >
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
@@ -111,4 +111,4 @@ Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur e
 
 *[HTML]: HyperText Markup Language
 *[CSS]: Cascading Style Sheets
-*[JS]: JavaScript -->
+*[JS]: JavaScript

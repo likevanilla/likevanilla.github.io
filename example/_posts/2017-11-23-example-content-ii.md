@@ -1,5 +1,5 @@
-<!-- ---
-layout: post
+---
+layout: 
 title: Example Content II
 description: >
   A page showing how regular markdown content is styled in Hydejack.
@@ -128,4 +128,4 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 
 ```
 The final element.
-``` -->
+```
