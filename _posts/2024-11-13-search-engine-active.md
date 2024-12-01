@@ -11,6 +11,13 @@ published: true
 {% include hits.md %}
 
 
+## Large quotes
+> 이 글은 chirpy 테마를 기준으로 작성된 글이며 현재는 Hydejack 테마로 바꾼 상태라 원하시는 정보와 다를 수 있습니다! 
+{:.lead}
+
+
+
+
 # Github Blog 검색 엔진에 노출시키기
 
 > 관심을 받기 위한 첫번째 발걸음.... 바로 검색 엔진에 노출!
