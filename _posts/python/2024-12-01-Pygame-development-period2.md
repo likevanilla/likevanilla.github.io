@@ -27,7 +27,7 @@ published: true
 초반 회의 때 어떤 기능들을 추가할 지 이야기를 나눴다.
 
 - 시작 화면
-![시작 화면](/_posts/python/pygame1/start.png){:.lead width="200" height="400" loading="lazy"}
+![시작 화면](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/python/end.png?raw=true){:.lead width="200" height="400" loading="lazy"}
 
 <hr>
 
