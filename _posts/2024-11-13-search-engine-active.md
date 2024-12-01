@@ -10,6 +10,7 @@ published: true
 ---
 {% include hits.md %}
 
+
 # Github Blog 검색 엔진에 노출시키기
 
 > 관심을 받기 위한 첫번째 발걸음.... 바로 검색 엔진에 노출!

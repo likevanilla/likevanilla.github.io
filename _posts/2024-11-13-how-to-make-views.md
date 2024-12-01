@@ -10,6 +10,7 @@ published: true
 ---
 {% include hits.md %}
 
+
 # Github Blog에 Views 표시하기
 
 ### Views란?
