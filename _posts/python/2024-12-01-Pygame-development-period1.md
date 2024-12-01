@@ -124,7 +124,8 @@ pygame.quit()
 ```
 
 - 플레이 화면
-![게임 플레이](_posts\python\pygame1\playing.png){:.lead width="200" height="400" loading="lazy"}
+![게임 플레이](/_posts/python/pygame1/playing.png){:.lead width="200" height="400" loading="lazy"}
+
 
 
 # 코드 이해하기
