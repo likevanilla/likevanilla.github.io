@@ -26,16 +26,19 @@ published: true
 ## 🛠 구현 기능
 초반 회의 때 어떤 기능들을 추가할 지 이야기를 나눴다.
 
-- 시작화면
-<img src="/_posts/python/pygame1/end.png" alt="이미지 설명" style="max-width:100%; height:auto;">
+- 시작 화면
+![시작 화면](/_posts/python/pygame1/start.png){:.lead width="200" height="400" loading="lazy"}
+
 <hr>
 
 - 플레이 화면
-![플레이 화면](_posts\python\pygame1\playing.png)
+![플레이 화면](/_posts/python/pygame1/in_game.png){:.lead width="100%" height="auto" loading="lazy"}
+
 <hr>
 
 - 종료 화면
-![종료 화면](/_posts/python/pygame1/end.png)
+![종료 화면](/_posts/python/pygame1/end.png){:.lead width="auto" height="auto" loading="lazy"}
+
 
 
 그렇다.. 그림판으로 대충 틀을 잡아본 그림이다... 참고로 초기에는 쓰레기를 피하는 게임이었던 것
