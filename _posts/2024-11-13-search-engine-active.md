@@ -8,6 +8,7 @@ permalink: '/:categories/:year/:month/:day/:title'
 
 published: true
 ---
+{% include hits.md %}
 
 # Github Blog 검색 엔진에 노출시키기
 

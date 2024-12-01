@@ -8,6 +8,7 @@ permalink: '/:categories/:year/:month/:day/:title'
 
 published: true
 ---
+{% include hits.md %}
 
 # Github Blog에 Views 표시하기
 

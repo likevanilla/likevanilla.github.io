@@ -9,6 +9,7 @@ permalink: '/:categories/:year/:month/:day/:title'
 
 published: true
 ---
+{% include hits.md %}
 
 # Github Blog에서 댓글을 달 수 있게 만들기
 
