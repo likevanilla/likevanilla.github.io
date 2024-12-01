@@ -11,6 +11,12 @@ published: true
 {% include hits.md %}
 
 
+
+* toc
+{:toc}
+
+
+
 ## 들어가기 전....
 > Github에 있는 프로젝트 레포지토리를 링크로 달고싶은데 교수님께서 비공개?로 해두셨다,,
 > 내 프로젝트 다른 사람들한테 보여주고싶은데~ 진짜 잘 했는데~
@@ -21,7 +27,7 @@ published: true
 초반 회의 때 어떤 기능들을 추가할 지 이야기를 나눴다.
 
 - 시작화면
-![시작 화면](_posts\python\pygame1\start.png)
+<img src="/_posts/python/pygame1/end.png" alt="이미지 설명" style="max-width:100%; height:auto;">
 <hr>
 
 - 플레이 화면
