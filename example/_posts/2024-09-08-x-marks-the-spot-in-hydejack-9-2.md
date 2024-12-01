@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: post
 description: > 
   This feature release adds new social media icons for 2024 and makes dark mode available to everyone.
@@ -12,7 +12,7 @@ accent_image: /assets/img/blog/pawel-czerwinski-848z7lbCjoo-unsplash.jpg
 excerpt_separator: <!--more-->
 sitemap: false
 published: false
----
+--- -->
 
 # X Marks the Spot in Hydejack 9.2
 ## New Social Media Icons
