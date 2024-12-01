@@ -30,7 +30,8 @@ published: true
 
 
 ~~~Python
-#file: `bomb_game.py`
+# file: `bomb_game.py`
+
 import pygame  # 1. pygame 선언
 import random
 import os
