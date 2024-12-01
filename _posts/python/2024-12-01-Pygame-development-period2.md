@@ -17,19 +17,19 @@ published: true
 {:.lead}
 
 
-## :tools: 구현 기능
+## 🛠 구현 기능
 초반 회의 때 어떤 기능들을 추가할 지 이야기를 나눴다.
 
 - 시작화면
-![200x400](/_posts/python/pygame1/start.png "시작 화면")
+![200x400](_posts\python\pygame1\start.png "시작 화면")
 <hr>
 
 - 플레이 화면
-![200x400](/_posts/python/pygame1/in_game.png "플레이 화면")
+![200x400](_posts\python\pygame1\playing.png "플레이 화면")
 <hr>
 
 - 종료 화면
-![200x400](/_posts/python/pygame1/end.png "종료 화면")
+![200x400](_posts\python\pygame1\end.png "종료 화면")
 
 그렇다.. 그림판으로 대충 틀을 잡아본 그림이다... 참고로 초기에는 쓰레기를 피하는 게임이었던 것
 {:.faded}
@@ -38,7 +38,7 @@ published: true
 먼저 화면 구성은 이렇게 하기로 했다. 그렇다면 원본 게임에서 어떤 것들을 추가해야 저렇게 보일 수 있을까?
 
 
-## :brain: 생각한 대로 이루어지리.. 
+## 🧠 생각한 대로 이루어지리.. 
 1. 시작 화면, 플레이 화면, 종료 화면 총 3가지로 상황에 맞는 화면 나누기
 2. 시작 화면에 START 버튼, 로고 만들기
 3. 플레이 화면에 시간 나오게 하기
@@ -165,8 +165,7 @@ pygame.quit()
 ```
 
 - 결과물
-![200x400](/_posts/python/pygame1/game_over.png.png "게임 오버")
-
+![200x400](_posts\python\pygame1\game_over.png "게임 오버")
 
 그렇다.. 정말 딱 기초적인 부분만 구현을 한 것이다.
 
