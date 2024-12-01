@@ -32,12 +32,12 @@ published: true
 <hr>
 
 - 플레이 화면
-![플레이 화면](/_posts/python/pygame1/in_game.png){:.lead width="100%" height="auto" loading="lazy"}
+![플레이 화면](/_posts/python/in_game.png){:.lead width="100%" height="auto" loading="lazy"}
 
 <hr>
 
 - 종료 화면
-![종료 화면](/_posts/python/pygame1/end.png){:.lead width="auto" height="auto" loading="lazy"}
+![종료 화면](end.png)
 
 
 
