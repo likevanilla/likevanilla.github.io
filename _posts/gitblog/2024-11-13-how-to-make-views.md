@@ -3,7 +3,7 @@ layout: post
 title: "[Github] Github Blog에 조회수 기능 추가하기"
 description: 몇 명의 사람이 내 게시물을 봤을까?
 
-categories: devlog
+categories: gitblog
 permalink: '/:categories/:year/:month/:day/:title'
 
 published: true

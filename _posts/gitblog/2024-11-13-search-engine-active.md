@@ -3,7 +3,7 @@ layout: post
 title: "[Github] Github Blog를 검색 엔진에 노출시키기"
 description: Naver나 Google에 내 Blog를 검색하면 나오게! 
 
-categories: devlog
+categories: gitblog
 permalink: '/:categories/:year/:month/:day/:title'
 
 published: true

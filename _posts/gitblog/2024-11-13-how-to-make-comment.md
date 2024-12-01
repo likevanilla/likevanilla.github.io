@@ -3,7 +3,7 @@ layout: post
 title: "[Github] Github Blog에 댓글 기능 추가하기"
 description: Github Blog 게시물에 댓글을 달 수 있을까? 
 
-categories: devlog
+categories: gitblog
 permalink: '/:categories/:year/:month/:day/:title'
 
 

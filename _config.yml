@@ -48,8 +48,10 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             DevLog
-    url:               /devlog/
+  - title:             GitBlog
+    url:               /gitblog/
+  - title:             Python
+    url:               /python/
   - title:             Documentation
     url:               /docs/
   - title:             About

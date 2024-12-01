@@ -1,9 +1,9 @@
 ---
 layout: list
-title: DevLog
-slug: devlog
+title: Python
+slug: python
 description: >
- 나의 개발일지
+ Python Coding
 
 sitemap: false
 ---

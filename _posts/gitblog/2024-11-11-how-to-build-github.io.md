@@ -2,7 +2,8 @@
 layout: post
 title: "[Github] Github.io Blog 만들기"
 description: Github에서 Bolg를 만들고 싶을 때는 어떻게 하면 될까?
-categories: devlog
+
+categories: gitblog
 permalink: '/:categories/:year/:month/:day/:title'
 
 published: true
