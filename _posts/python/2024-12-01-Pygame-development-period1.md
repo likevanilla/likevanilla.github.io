@@ -18,7 +18,7 @@ published: true
 {:.lead}
 
 
-# 어떤 게임을 만들까?
+# :video_game: 어떤 게임을 만들까?
 팀이 정해지고 가장 먼저 떠오른 생각은 당연히 "어떤 게임을 만들까?"였다.
 
 구글에 Pygame을 구글링하며 결정된 것은 바로... **폭탄 피하기!!**
@@ -29,8 +29,7 @@ published: true
 
 
 
-~~~Python
-# file: `bomb_game.py`
+```Python
 
 import pygame  # 1. pygame 선언
 import random
@@ -116,10 +115,10 @@ def runGame():
 
 runGame()
 pygame.quit()
-~~~
+```
 
-
-
+- 플레이 화면
+![200x400](/_posts/python/pygame1/playing.png "게임 플레이")
 
 
 # 코드 이해하기
@@ -132,7 +131,7 @@ pygame.quit()
 
 [참고한 강의](https://www.youtube.com/watch?v=j4J6m81ccto&list=PL1jdJcP6uQtudj1sjGUZNA_4TkgJaYKC3)
 
-# 우당탕탕 Git 협업
+# :people_hugging: 우당탕탕 Git 협업
 다들 Git 협업은 처음 해봐서 첫 회의 때는 Git을 어떻게 활용하고 어떤 규칙으로 소통할 것인지 공부하고 정했다.
 
 사실 아직도 제대로 할 수 있는 게 아니라서 설명을 잘 할 자신은 없다... 더 공부한 내가 나중에 보고 웃음이 나온다면 오케이..
