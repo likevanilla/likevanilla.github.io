@@ -29,7 +29,7 @@ published: true
 <hr>
 
 - 종료 화면
-![종료 화면](_posts\python\pygame1\end.png)
+![종료 화면](/_posts/python/pygame1/end.png)
 
 
 그렇다.. 그림판으로 대충 틀을 잡아본 그림이다... 참고로 초기에는 쓰레기를 피하는 게임이었던 것
