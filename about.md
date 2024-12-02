@@ -13,6 +13,7 @@ redirect_from:
 
 <!--author-->
 
+<!--
 ## Hydejack
 
 A boutique Jekyll theme for hackers, nerds, and academics.  
@@ -165,3 +166,4 @@ Use the the form below to purchase Hydejack PRO:
 [rouge]: http://rouge.jneen.net
 [katex]: https://khan.github.io/KaTeX/
 [mathjax]: https://www.mathjax.org/
+-->
