@@ -53,7 +53,7 @@ menu:
   - title:             Python
     url:               /python/
   - title:             Study
-    url:               study
+    url:               /study/
   - title:             Documentation
     url:               /docs/
   - title:             About
