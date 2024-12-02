@@ -30,14 +30,14 @@ published: true
 
 - [캐릭터 이미지 출처](https://snoblin.itch.io/pixel-rpg-free-npc)
 
-![폭탄 이미지](https://github/likevanilla/likevanilla.github.io/blob/main/_posts/python/pygame6/bomb.png?raw=true)
+![폭탄 이미지](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/python/pygame6/bomb.png?raw=true)
 <br>
 폭탄 이미지임당
 {:.figcaption}
 
 <hr>
 
-![캐릭터 이미지](https://github/likevanilla/likevanilla.github.io/blob/main/_posts/python/pygame6/Character.png?raw=true)
+![캐릭터 이미지](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/python/pygame6/Character.png?raw=true)
 <br>
 캐릭터 이미지팩임당
 {:.figcaption}
