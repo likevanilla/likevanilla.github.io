@@ -52,6 +52,8 @@ menu:
     url:               /gitblog/
   - title:             Python
     url:               /python/
+  - title:             Study
+    url:               study
   - title:             Documentation
     url:               /docs/
   - title:             About
