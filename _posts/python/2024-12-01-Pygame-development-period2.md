@@ -26,19 +26,22 @@ published: true
 ## 🛠 구현 기능
 초반 회의 때 어떤 기능들을 추가할 지 이야기를 나눴다.
 
-- 시작 화면
+
 ![시작 화면](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/python/pygame1/start.png?raw=true){:.lead width="200" height="400" loading="lazy"}
+시작 화면임당
+{:.figcaption}
 
 <hr>
 
-- 플레이 화면
 ![플레이 화면](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/python/pygame1/in_game.png?raw=true){:.lead width="100%" height="auto" loading="lazy"}
+플레이 화면임당
+{:.figcaption}
 
 <hr>
 
-- 종료 화면
 ![종료 화면](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/python/pygame1/end.png?raw=true)
-
+종료 화면임당
+{:.figcaption}
 
 
 그렇다.. 그림판으로 대충 틀을 잡아본 그림이다... 참고로 초기에는 쓰레기를 피하는 게임이었던 것
@@ -174,8 +177,9 @@ runGame()
 pygame.quit()
 ```
 
-- 결과물
 ![게임 오버](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/python/pygame1/game_over.png?raw=true){:.lead width="200" height="400" loading="lazy"}
+게임 오버 화면임당
+{:.figcaption}
 
 그렇다.. 정말 딱 기초적인 부분만 구현을 한 것이다.
 
