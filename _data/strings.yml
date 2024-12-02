@@ -52,7 +52,8 @@ not_found:
   title:               '404: Page Not Found'
   message:             |
     Sorry, we've misplaced that URL or it's pointing to something that doesn't exist.
-    <!--home_link--> to try finding it again.
+    <!--home_link--> to try finding it again. 
+    해결 방법: ctrl + shift + R 을 눌러보세요!
   home_link:           Head back home
 
 offline:
