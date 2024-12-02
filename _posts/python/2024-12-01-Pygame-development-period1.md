@@ -35,7 +35,7 @@ published: true
 
 
 
-```Python
+```python
 
 import pygame  # 1. pygame 선언
 import random

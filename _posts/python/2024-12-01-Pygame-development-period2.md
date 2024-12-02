@@ -85,7 +85,7 @@ published: true
 변경된 코드는 아래와 같다.
 
 
-```Python
+```python
 import pygame  # 1. pygame 선언
 import random
 import os
