@@ -124,7 +124,7 @@ pygame.quit()
 ```
 
 - 플레이 화면
-![게임 플레이](playing.png){:.lead width="200" height="400" loading="lazy"}
+![게임 플레이](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/python/pygame1/playing.png?raw=true){:.lead width="200" height="400" loading="lazy"}
 
 
 

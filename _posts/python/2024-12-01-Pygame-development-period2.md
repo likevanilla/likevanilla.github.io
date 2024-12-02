@@ -27,17 +27,17 @@ published: true
 초반 회의 때 어떤 기능들을 추가할 지 이야기를 나눴다.
 
 - 시작 화면
-![시작 화면](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/python/end.png?raw=true){:.lead width="200" height="400" loading="lazy"}
+![시작 화면](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/python/pygame1/start.png?raw=true){:.lead width="200" height="400" loading="lazy"}
 
 <hr>
 
 - 플레이 화면
-![플레이 화면](https://private-user-images.githubusercontent.com/87215294/371839176-44ed3641-2a18-4270-aac0-c86732d7d556.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzMwNDg0MzIsIm5iZiI6MTczMzA0ODEzMiwicGF0aCI6Ii84NzIxNTI5NC8zNzE4MzkxNzYtNDRlZDM2NDEtMmExOC00MjcwLWFhYzAtYzg2NzMyZDdkNTU2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMDElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjAxVDEwMTUzMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTMxMDU0ZWI1MDhmODVhNDVkZTNlYmFmYTMxYTI5YWFmOTk5NDRkZmEzNjJlZGYwOWMyOWU3YTY5M2ZjM2UwZjgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.GxomhnUIdXoVCo2vq4_e20Q9rThsmgHhMWV5c1Z7oSk){:.lead width="100%" height="auto" loading="lazy"}
+![플레이 화면](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/python/pygame1/in_game.png?raw=true){:.lead width="100%" height="auto" loading="lazy"}
 
 <hr>
 
 - 종료 화면
-![종료 화면](https://private-user-images.githubusercontent.com/87215294/371839176-44ed3641-2a18-4270-aac0-c86732d7d556.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzMwNDg0MzIsIm5iZiI6MTczMzA0ODEzMiwicGF0aCI6Ii84NzIxNTI5NC8zNzE4MzkxNzYtNDRlZDM2NDEtMmExOC00MjcwLWFhYzAtYzg2NzMyZDdkNTU2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMDElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjAxVDEwMTUzMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTMxMDU0ZWI1MDhmODVhNDVkZTNlYmFmYTMxYTI5YWFmOTk5NDRkZmEzNjJlZGYwOWMyOWU3YTY5M2ZjM2UwZjgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.GxomhnUIdXoVCo2vq4_e20Q9rThsmgHhMWV5c1Z7oSk)
+![종료 화면](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/python/pygame1/end.png?raw=true)
 
 
 
@@ -175,7 +175,7 @@ pygame.quit()
 ```
 
 - 결과물
-![게임 오버](_posts\python\pygame1\game_over.png){:.lead width="200" height="400" loading="lazy"}
+![게임 오버](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/python/pygame1/game_over.png?raw=true){:.lead width="200" height="400" loading="lazy"}
 
 그렇다.. 정말 딱 기초적인 부분만 구현을 한 것이다.
 
