@@ -42,9 +42,10 @@ published: true
 <hr>
 
 ![종료 화면](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/python/pygame1/end.png?raw=true)
-
+<br>
 종료 화면임당
 {:.figcaption}
+<hr>
 
 
 그렇다.. 그림판으로 대충 틀을 잡아본 그림이다... 참고로 초기에는 쓰레기를 피하는 게임이었던 것
@@ -180,9 +181,11 @@ runGame()
 pygame.quit()
 ```
 
-![게임 오버](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/python/pygame1/game_over.png?raw=true){:.lead width="200" height="400" loading="lazy"}
+![게임 오버](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/python/pygame1/game_over.png?raw=true)
+<br>
 게임 오버 화면임당
 {:.figcaption}
+<hr>
 
 그렇다.. 정말 딱 기초적인 부분만 구현을 한 것이다.
 
