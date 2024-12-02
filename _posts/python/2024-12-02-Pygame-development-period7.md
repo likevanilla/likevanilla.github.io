@@ -31,7 +31,8 @@ published: true
 
 ### 아이작? 그게 뭔데
 
-![아이작](https://github.com/likevanilla/likevanilla.github.io/blob/main/_post/python/pygame7/issac.png?raw=true)
+![아이작](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/python/pygame7/issac.png?raw=true)
+
 <br>
 아이작 주인공임당 ~~귀여움~~
 {:.figcaption}
@@ -42,7 +43,7 @@ published: true
 
 #### 변종? 그건 또 뭔데
 
-![아이작 변종](https://github.com/likevanilla/likevanilla.github.io/blob/main/_post/python/pygame7/issac_play.png?raw=true)
+![아이작 변종](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/python/pygame7/issac_play.png?raw=true)
 <br>
 게임 플레이 중 나온 색이 다른 친구 ~~이거 찍으려고 오랜만에 게임을 켰다.~~
 {:.figcaption}
@@ -73,7 +74,7 @@ published: true
 
 [거북이 이미지 출처](https://zejbo32.itch.io/crappy-turtle-spritesheet)
 
-![거북이](https://github.com/likevanilla/likevanilla.github.io/blob/main/_post/python/pygame7/turtle.png?raw=true)
+![거북이](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/python/pygame7/turtle.png?raw=true)
 
 #### 💣 다이너마이트
 다이너마이트는 폭탄보다 강하다(?)
@@ -84,7 +85,7 @@ published: true
 
 [다이너마이트 이미지 출처](https://tumas81.itch.io/minerman-adventure)
 
-![다이너마이트](https://github.com/likevanilla/likevanilla.github.io/blob/main/_post/python/pygame7/dynamite.png?raw=true)
+![다이너마이트](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/python/pygame7/dynamite.png?raw=true)
 
 
 ## 💻 작성 코드
