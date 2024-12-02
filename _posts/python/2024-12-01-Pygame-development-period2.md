@@ -27,21 +27,21 @@ published: true
 초반 회의 때 어떤 기능들을 추가할 지 이야기를 나눴다.
 
 
-![시작 화면](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/python/pygame1/start.png?raw=true)
+![시작 화면](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/python/pygame2/start.png?raw=true)
 <br>
 시작 화면임당
 {:.figcaption}
 
 <hr>
 
-![플레이 화면](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/python/pygame1/in_game.png?raw=true)
+![플레이 화면](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/python/pygame2/in_game.png?raw=true)
 <br>
 플레이 화면임당
 {:.figcaption}
 
 <hr>
 
-![종료 화면](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/python/pygame1/end.png?raw=true)
+![종료 화면](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/python/pygame2/end.png?raw=true)
 <br>
 종료 화면임당
 {:.figcaption}
@@ -181,7 +181,7 @@ runGame()
 pygame.quit()
 ```
 
-![게임 오버](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/python/pygame1/game_over.png?raw=true)
+![게임 오버](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/python/pygame2/game_over.png?raw=true)
 <br>
 게임 오버 화면임당
 {:.figcaption}

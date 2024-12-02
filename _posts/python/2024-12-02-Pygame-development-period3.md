@@ -100,7 +100,7 @@ THE SOFTWARE.
 ### 결과
 위 방법들을 따르면 해당 레포지토리 메인 우측 About에 이런게 생긴다!
 
-![About](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/python/pygame1/about.png?raw=true)
+![About](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/python/pygame3/about.png?raw=true)
 <br>
 결과 화면임당
 MIT license가 생긴 게 보이죵?
@@ -108,7 +108,7 @@ MIT license가 생긴 게 보이죵?
 
 그리고 README.md 파일에 이런식으로 추가할 수도 있다.
 
-![readme footer](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/python/pygame1/readme_footer.png?raw=true)
+![readme footer](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/python/pygame3/readme_footer.png?raw=true)
 <br>
 README.md 하단(footer)임당
 뭘 보고 했는진 기억이 잘 안 나네용
@@ -117,7 +117,7 @@ README.md 하단(footer)임당
 
 레포지토리 메인에 README 옆에 이렇게 추가도 된다!
 
-![main](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/python/pygame1/main.png?raw=true)
+![main](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/python/pygame3/main.png?raw=true)
 <br>
 README 옆에 MIT LICENSE가 생긴 모습임당
 {:.figcaption}
