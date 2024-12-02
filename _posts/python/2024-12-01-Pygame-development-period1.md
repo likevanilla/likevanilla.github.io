@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pygame 프로젝트 개발기 (1)"
+title: "Pygame 프로젝트 개발기 - 시작"
 description: 처음 해보는 github 협업 프로젝트.. 잘 해낼 수 있을까??
 
 categories: python
@@ -123,8 +123,10 @@ runGame()
 pygame.quit()
 ```
 
-- 플레이 화면
 ![게임 플레이](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/python/pygame1/playing.png?raw=true){:.lead width="200" height="400" loading="lazy"}
+<br>
+게임 플레이 화면임당
+{:.figcaption}
 
 
 

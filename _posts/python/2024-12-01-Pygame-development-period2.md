@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pygame 프로젝트 개발기 (2)"
+title: "Pygame 프로젝트 개발기 - GAMEOVER"
 description: 처음 해보는 github 협업 프로젝트.. 잘 해낼 수 있을까??
 
 categories: python
