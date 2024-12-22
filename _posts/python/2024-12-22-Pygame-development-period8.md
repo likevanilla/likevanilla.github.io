@@ -24,15 +24,19 @@ published: true
 
 ## ✅ 다운로드 하는 법
 
-[폭탄 피하기 게임 설치 링크](https://www.dropbox.com/scl/fi/ht85nxqek1qvz85rp37xp/.zip?rlkey=o6ctgvdsn0ir2895caorj9mcp&st=4rdxpf4s&dl=0)
+[폭탄 피하기 게임 설치 링크](https://www.dropbox.com/scl/fi/ht85nxqek1qvz85rp37xp/.zip?rlkey=o6ctgvdsn0ir2895caorj9mcp&st=11nrv2vf&dl=0)
 
 먼저 위 링크를 클릭해서 들어가고 다운로드를 받으면 zip확장자의 파일을 다운받을 수 있다.
 
-그 뒤 압축 해제를 하고 `폭탄 피하기 실행`파일을 더블클릭하면 게임을 플레이 할 수 있다!
+그 뒤 압축 해제를 하고 `폭탄 피하기 게임` -> `dist` -> `폭탄 피하기 게임.exe`
+
+이 경로를 따르면 게임을 바로 플레이 할 수 있다!
 
 원래는 github에서 clone이나 거기서 zip을 받아서 vscode, python 인터프리터로 실행을 해야하지만..
 
 굉장히 간편하게 할 수 있게 개선을 해보았다.
+
+python을 따로 설치하지 않아도 플레이 할 수 있다!
 
 ## 비하인드
 
