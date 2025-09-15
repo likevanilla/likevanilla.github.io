@@ -4,23 +4,20 @@ title: "[Github] Github.io Blog 만들기"
 description: Github에서 Bolg를 만들고 싶을 때는 어떻게 하면 될까?
 
 categories: gitblog
-permalink: '/:categories/:year/:month/:day/:title'
+permalink: "/:categories/:year/:month/:day/:title"
 
 published: true
 ---
+
 {% include hits.md %}
 
-
-* toc
-{:toc}
-
+- toc
+  {:toc}
 
 ## WARNING!
-> 이 글은 chirpy 테마를 기준으로 작성된 글이며 현재는 Hydejack 테마로 바꾼 상태라 원하시는 정보와 다를 수 있습니다! 
-{:.lead}
 
-
-
+> 이 글은 chirpy 테마를 기준으로 작성된 글이며 현재는 Hydejack 테마로 바꾼 상태라 원하시는 정보와 다를 수 있습니다!
+> {:.lead}
 
 ## Windows에서 Github Blog 만들기 (github.io)
 
@@ -49,7 +46,7 @@ Github Pages는 개발자분들이 블로그, 개인 프로젝트 전시용, 포
 
 1. 자신의 Repositories에 들어가서 `New`버튼을 눌러준다.
 2. Repository name은 user_name.github.io로 생성한다.
-ex) likevanilla.github.io
+   ex) likevanilla.github.io
 3. Public, Add a README file을 선택해준다.
 4. `Create repository`
 
@@ -82,7 +79,7 @@ ex) likevanilla.github.io
 ### ❗ 주의사항
 
 - 저장된 곳으로 들어가는 경로의 파일들 이름은 영어로 설정해야합니다.
-추후 관련 오류 코드 - 3221225477
+  추후 관련 오류 코드 - 3221225477
 
 &nbsp;
 &nbsp;
@@ -94,9 +91,9 @@ ex) likevanilla.github.io
 
 ```html
 <html>
-	<body>
-		Hello! This is the first page!
-	</body>
+  <body>
+    Hello! This is the first page!
+  </body>
 </html>
 ```
 
@@ -161,8 +158,8 @@ bundle exec jekyll serve
 ```
 
 - 접속 확인
-    a. [https://127.0.0.1:4000/](https://127.0.0.1:4000/) 또는 [https://localhost:4000/](https://localhost:4000/)
-    b. [http://127.0.0.1:4000/](https://127.0.0.1:4000/) 또는 [http://localhost:4000/](https://localhost:4000/)
+  a. [https://127.0.0.1:4000/](https://127.0.0.1:4000/) 또는 [https://localhost:4000/](https://localhost:4000/)
+  b. [http://127.0.0.1:4000/](https://127.0.0.1:4000/) 또는 [http://localhost:4000/](https://localhost:4000/)
 
 &nbsp;
 &nbsp;
@@ -172,10 +169,11 @@ bundle exec jekyll serve
 ### 테마 선택
 
 - 위에서 `chirpy theme`을 설치하지 않았다면 아래 사이트 중에서 원하는 theme을 골라서 설치하세요. 설명은 `chirpy theme`을 설치했다는 기준으로 진행합니다.
-    - [http://jekyllthemes.org](http://jekyllthemes.org/)
-    - [https://jekyllthemes.io/free](https://jekyllthemes.io/free)
-    - [https://themes.jekyllrc.org](https://themes.jekyllrc.org/)
-    - [https://github.com/topics/jekyll-theme](https://github.com/topics/jekyll-theme)
+  - [http://jekyllthemes.org](http://jekyllthemes.org/)
+  - [https://jekyllthemes.io/free](https://jekyllthemes.io/free)
+  - [https://themes.jekyllrc.org](https://themes.jekyllrc.org/)
+  - [https://github.com/topics/jekyll-theme](https://github.com/topics/jekyll-theme)
+
 1. `jekyll-theme-cirpy-master.zip` 압축을 풀고 모든 내용을 user_name.github.io 파일 안에 복사(덮어쓰기)
 2. bundle install
 
@@ -190,9 +188,10 @@ bundle exec jekyll serve
 ```
 
 4. 접속 확인
-    a. [https://127.0.0.1:4000/](https://127.0.0.1:4000/)또는 [https://localhost:4000/](https://localhost:4000/)
+   a. [https://127.0.0.1:4000/](https://127.0.0.1:4000/)또는 [https://localhost:4000/](https://localhost:4000/)
 
-    b. [http://127.0.0.1:4000/](https://127.0.0.1:4000/) 또는 [http://localhost:4000/](https://localhost:4000/)
+   b. [http://127.0.0.1:4000/](https://127.0.0.1:4000/) 또는 [http://localhost:4000/](https://localhost:4000/)
+
 5. 좌측 `Sorce Control(소스 제어)` 선택
 6. `+` 버튼을 클릭하여 변경 사항 추가
 7. 커밋 메세지 입력, 커밋 & 푸시
@@ -219,16 +218,20 @@ npm install && npm run build
 
 ### ❌ 에러가 뜰 때
 
-1. `npm error code 3221225477` 
-    - 해결 방법 : 프로젝트를 영문 경로로 이동
+1. `npm error code 3221225477`
+   - 해결 방법 : 프로젝트를 영문 경로로 이동
 2. `npm error code ENOENT`
-    - 해결 방법 : pakage.json 파일을 만들거나 들어가서 아래의 코드를 작성한 뒤 설치
-    
-    ```json
-    { "name": "my-github-blog", "version": "1.0.0", 
-    "scripts": { "build": "jekyll build", "serve": "jekyll serve" } }
-    ```
-    
+
+   - 해결 방법 : pakage.json 파일을 만들거나 들어가서 아래의 코드를 작성한 뒤 설치
+
+   ```json
+   {
+     "name": "my-github-blog",
+     "version": "1.0.0",
+     "scripts": { "build": "jekyll build", "serve": "jekyll serve" }
+   }
+   ```
+
 &nbsp;
 &nbsp;
 
@@ -243,7 +246,7 @@ npm install && npm run build
 ```
 
 - `_config.yml` 파일 수정
-    - 추가적으로 다른 부분의 정보들을 바꿔도 됨(github, twitter, social …)
+  - 추가적으로 다른 부분의 정보들을 바꿔도 됨(github, twitter, social …)
 
 ```
 # 12번째 줄
