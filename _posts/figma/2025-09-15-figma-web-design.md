@@ -12,8 +12,7 @@ date: 2025-09-15
 last_modified_at: 2025-09-28
 ---
 
-- toc
-  {:toc}
+[toc]
 
 ## 들어가기 전...
 
