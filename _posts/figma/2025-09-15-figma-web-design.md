@@ -8,9 +8,6 @@ permalink: "/:categories/:year/:month/:day/:title"
 
 published: true
 
-toc: true
-toc_sticky: true
-
 date: 2025-09-15
 last_modified_at: 2025-09-28
 ---
