@@ -1,7 +1,7 @@
 ---
 layout: list
 title: ReactNative
-slug: ReactNative
+slug: reactnative
 description: >
     React Native 공부
 
