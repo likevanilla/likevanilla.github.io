@@ -73,7 +73,7 @@ export default App;
 ```
 
 <img 
-  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter4/simulator_screen1.png?raw=true"
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/reactnative/chapter4/simulator_screen1.png?raw=true"
   style="width: 50%;"
 />
 
@@ -285,7 +285,7 @@ const style = StyleSheet.create({
 ```
 
 <img 
-  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter4/simulator_screen2.png?raw=true"
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/reactnative/chapter4/simulator_screen2.png?raw=true"
   style="width: 50%;"
 />
 
@@ -300,7 +300,7 @@ const style = StyleSheet.create({
 **flexDirection**을 이용하면 컴포넌트가 쌓이는 방향을 변경할 수 있어요.
 
 <img 
-  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter4/flexDirection.png?raw=true"
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/reactnative/chapter4/flexDirection.png?raw=true"
   style="width: 50%;"
 />
 
@@ -321,7 +321,7 @@ const style = StyleSheet.create({
 ###### justifyContent 설정 값
 
 <img 
-  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter4/justifyContent.png?raw=true"
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/reactnative/chapter4/justifyContent.png?raw=true"
   style="width: 50%;"
 />
 
@@ -335,7 +335,7 @@ const style = StyleSheet.create({
 ##### alignItems 설정 값
 
 <img 
-  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter4/alignItems.png?raw=true"
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/reactnative/chapter4/alignItems.png?raw=true"
   style="width: 50%;"
 />
 
@@ -525,7 +525,7 @@ export default App;
 ```
 
 <img 
-  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter4/simulator_screen3.png?raw=true"
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/reactnative/chapter4/simulator_screen3.png?raw=true"
   style="width: 50%;"
 />
 
@@ -564,7 +564,7 @@ const Button = (props) => {
 ```
 
 <img 
-  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter4/simulator_screen4.png?raw=true"
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/reactnative/chapter4/simulator_screen4.png?raw=true"
   style="width: 50%;"
 />
 
@@ -715,12 +715,12 @@ export const darkTheme = {
 이렇게 세 파일로 구성했고, 라이트 모드와 다크 모드일 때 변경시킬 스타일들에 전부 props로 상태에 맞게 변화하도록 구현했어요.
 
 <img 
-  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter4/simulator_screen5.png?raw=true"
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/reactnative/chapter4/simulator_screen5.png?raw=true"
   style="width: 50%;"
 />
 
 <img 
-  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter4/simulator_screen6.png?raw=true"
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/reactnative/chapter4/simulator_screen6.png?raw=true"
   style="width: 50%;"
 />
 

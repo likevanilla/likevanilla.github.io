@@ -46,7 +46,7 @@ Fragment 컴포넌트의 단축 문법임!
 그저 자식들을 그룹화 원툴(?)
 
 <img 
-  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen1.jpg?raw=true"
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/reactnative/chapter3/simulator_screen1.jpg?raw=true"
   style="width: 50%;"
 />
 
@@ -69,12 +69,12 @@ export default function App() {
 ```
 
 <img 
-  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen2.jpg?raw=true"
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/reactnative/chapter3/simulator_screen2.jpg?raw=true"
   style="width: 50%;"
 />
 
 <img 
-  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen3.jpg?raw=true"
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/reactnative/chapter3/simulator_screen3.jpg?raw=true"
   style="width: 50%;"
 />
 
@@ -95,7 +95,7 @@ export default function App() {
 ```
 
 <img 
-  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen4.jpg?raw=true"
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/reactnative/chapter3/simulator_screen4.jpg?raw=true"
   style="width: 50%;"
 />
 
@@ -119,7 +119,7 @@ export default function App() {
 ```
 
 <img 
-  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen5.jpg?raw=true"
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/reactnative/chapter3/simulator_screen5.jpg?raw=true"
   style="width: 50%;"
 />
 
@@ -186,12 +186,12 @@ export default App;
 ```
 
 <img 
-  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen6.jpg?raw=true"
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/reactnative/chapter3/simulator_screen6.jpg?raw=true"
   style="width: 50%;"
 />
 
 <img 
-  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen7.jpg?raw=true"
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/reactnative/chapter3/simulator_screen7.jpg?raw=true"
   style="width: 50%;"
 />
 
@@ -256,12 +256,12 @@ export default App;
 ```
 
 <img 
-  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen8.jpg?raw=true"
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/reactnative/chapter3/simulator_screen8.jpg?raw=true"
   style="width: 50%;"
 />
 
 <img 
-  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen9.jpg?raw=true"
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/reactnative/chapter3/simulator_screen9.jpg?raw=true"
   style="width: 50%;"
 />
 
@@ -292,7 +292,7 @@ const MyButton = (props) => {
 ```
 
 <img 
-  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/terminal_screen1.jpg?raw=true"
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/reactnative/chapter3/terminal_screen1.jpg?raw=true"
   style="width: 50%;"
 />
 
@@ -337,12 +337,12 @@ const App = () => {
 ```
 
 <img 
-  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen10.jpg?raw=true"
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/reactnative/chapter3/simulator_screen10.jpg?raw=true"
   style="width: 50%;"
 />
 
 <img 
-  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen11.jpg?raw=true"
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/reactnative/chapter3/simulator_screen11.jpg?raw=true"
   style="width: 50%;"
 />
 
@@ -411,12 +411,12 @@ export default Counter;
 ```
 
 <img 
-  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen12.jpg?raw=true"
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/reactnative/chapter3/simulator_screen12.jpg?raw=true"
   style="width: 50%;"
 />
 
 <img 
-  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen13.jpg?raw=true"
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/reactnative/chapter3/simulator_screen13.jpg?raw=true"
   style="width: 50%;"
 />
 
@@ -450,7 +450,7 @@ const Counter = () => {
 ```
 
 <img 
-  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/terminal_screen2.jpg?raw=true"
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/reactnative/chapter3/terminal_screen2.jpg?raw=true"
   style="width: 50%;"
 />
 
