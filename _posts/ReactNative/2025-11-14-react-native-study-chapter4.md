@@ -3,7 +3,7 @@ layout: post
 title: "[React Native] 리액트 네이티브 정복하기! - 2"
 description: "[처음부터 배우는 리액트 네이티브] Chapter 4 스타일링"
 
-categories: ReactNative
+categories: reactnative
 permalink: "/:categories/:year/:month/:day/:title"
 
 published: true
