@@ -13,27 +13,31 @@ date: 2025-11-14
 last_modified_at: 2025-11-14
 ---
 
-### 1주차 기록
+[처음 배우는 리액트 네이티브] 책으로 리액트 네이티브 공부하기!
+
+1장과 2장은 따로 진행 후 3장부터 블로그를 작성하기로 했다.
+
+개발환경 구축하는 과정에 제대로 되지 않는 부분들도 있고 결국 해내지 못한 부분들이 있었다..
 
 처음 nvm 설치가 막혀서 
 
 https://juntcom.tistory.com/222
 
-이 글을 참고하여 설치함!
+이 글을 참고하여 설치했다!
 
 안드로이드는 결국 개발환경 구축 실패함.. 일단 IOS로만 실습 해보기
 
+
+### 컴포넌트
+컴포넌트란 재사용할 수 있는 조립 블록으로 화면에 나타나는 UI 요소를 말한다!
+
 View는 div와 비슷한 역할을 하는 컴포넌트
-
-RN은 태그들을 다 컴포넌트라고 하는건가?
-
-앞으로 RN에서는 태그가 아니라 컴포넌트라고 불러야겠음
 
 Fragment 컴포넌트는 그냥 아무런 기능 없이 하나의 부모로 나머지 요소들을 감싸서 반환할 때 사용하면 될듯
 
-근데 얘는 import {Fragment} from react 해줘야돼서 귀찮으니까 그냥 
+근데 얘는 `import {Fragment} from react` 해줘야돼서 귀찮으니까 그냥 
 
-import React from react하고 <> </> 이렇게 빈 괄호로 표현해도 됨
+`import React from react`하고 `<> </>` 이렇게 빈 괄호로 표현해도 됨
 
 Fragment 컴포넌트의 단축 문법임!
 
@@ -90,7 +94,7 @@ export default function App() {
   const name = "Jeonghyuk";
   return (
     <View style={styles.container}>
-      {nmae === 'Jeonghyuk' && (
+      {name === 'Jeonghyuk' && (
         <Text style={styles.text}>My name is Jeonghyuk</Text>
       )}
       {name !== 'Jeonghyuk' && (
@@ -122,9 +126,9 @@ JSX에서 null이나 undefined를 반환하는 경우가 있는데
 }
 ```
 
-주석 사용법!
+### 주석 사용법
 
-- {/* */}
+- `{/* */}`
 - 태그 안에서는 // 또는 /* */
 
 단축키 : Command + /
@@ -132,8 +136,6 @@ JSX에서 null이나 undefined를 반환하는 경우가 있는데
 자세한 스타일링은 4장에서 하고 3장에서는 인라인 스타일링에 대해 알려줌
 
 객체 형태로 입력해야하고 카멜표기법을 사용함
-
-컴포넌트!
 
 처음에 App.js에 export default App();이라고 적어서 오류가 났음
 
@@ -236,7 +238,7 @@ export default App;
 
 ![simulator_screenshot_855614F6-BC7A-4AB1-96DE-79BD062791F4.png](attachment:ec0ad8fe-6053-4f03-9866-94c74246c5d7:simulator_screenshot_855614F6-BC7A-4AB1-96DE-79BD062791F4.png)
 
-props
+### props
 
 ```jsx
 // App.js
@@ -328,7 +330,7 @@ defaultProps.. 나는 왜 안될까요?
 
 propTypes도 안된다
 
-useState
+### useState
 
 ```jsx
 // src/App.js
@@ -464,11 +466,13 @@ export default App;
 
 ```
 
+### Pressable
+
 Pressable 컴포넌트는 TouchableOpacity 컴포넌트를 대체함. Pressable을 권장한다는데.. 그럼 빨리좀 말해주시지
 
-의도하지 않은 버튼을 클릭하거나 버튼을 클릭하는 것 자체가 어려운 상황을 해결하기 위해 버튼 모양보다 약간 떨어진 부분까지 이벤트가 발생 할 수 있도록 도와줌 그것이 HitRect,
+의도하지 않은 버튼을 클릭하거나 버튼을 클릭하는 것 자체가 어려운 상황을 해결하기 위해 버튼 모양보다 약간 떨어진 부분까지 이벤트가 발생 할 수 있도록 도와줌 그것이 **HitRect**,
 
-PressRect는 버튼을 클릭했을 때 해당 버튼이 동작하지 않게 하기 위해 버튼을 누른 상태에서 얼마나 멀어져야 벗어났다고 판단하는지에 대한 영역
+**PressRect**는 버튼을 클릭했을 때 해당 버튼이 동작하지 않게 하기 위해 버튼을 누른 상태에서 얼마나 멀어져야 벗어났다고 판단하는지에 대한 영역
 
 ```jsx
 import React from 'react';
