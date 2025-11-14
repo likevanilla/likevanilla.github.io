@@ -45,7 +45,10 @@ Fragment 컴포넌트의 단축 문법임!
 
 그저 자식들을 그룹화 원툴(?)
 
-![시뮬레이터 화면](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen1.jpg?raw=true)
+<img 
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen1.jpg?raw=true"
+  style="width: 50%;"
+/>
 
 ```jsx
 export default function App() {
