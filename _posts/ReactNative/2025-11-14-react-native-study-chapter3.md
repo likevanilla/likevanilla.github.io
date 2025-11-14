@@ -45,7 +45,7 @@ Fragment 컴포넌트의 단축 문법임!
 
 그저 자식들을 그룹화 원툴(?)
 
-![시뮬레이터 화면](https://github.com/likevanilla/likevanilla.github.io/bolb/main/_posts/ReactNative/chapter3/simulator_screen1.jpg?raw=true)
+![시뮬레이터 화면](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen1.jpg?raw=true)
 
 ```jsx
 export default function App() {
@@ -65,9 +65,9 @@ export default function App() {
 }
 ```
 
-![simulator_screenshot_304F1D8A-F9C5-4A2F-ADBB-CC87527ECAA5.png](https://github.com/likevanilla/likevanilla.github.io/bolb/main/_posts/ReactNative/chapter3/simulator_screen2.jpg?raw=true)
+![simulator_screenshot_304F1D8A-F9C5-4A2F-ADBB-CC87527ECAA5.png](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen2.jpg?raw=true)
 
-![name 값을 pudding으로 바꿈](https://github.com/likevanilla/likevanilla.github.io/bolb/main/_posts/ReactNative/chapter3/simulator_screen3.jpg?raw=true)
+![name 값을 pudding으로 바꿈](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen3.jpg?raw=true)
 
 name 값을 pudding으로 바꿈
 
@@ -85,7 +85,7 @@ export default function App() {
 }
 ```
 
-![참 값을 pudding으로 둬서 pudding이 나와버리는 모습ㅋㅋ](https://github.com/likevanilla/likevanilla.github.io/bolb/main/_posts/ReactNative/chapter3/simulator_screen4.jpg?raw=true)
+![참 값을 pudding으로 둬서 pudding이 나와버리는 모습ㅋㅋ](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen4.jpg?raw=true)
 
 참 값을 pudding으로 둬서 pudding이 나와버리는 모습ㅋㅋ
 
@@ -106,7 +106,7 @@ export default function App() {
 }
 ```
 
-![simulator_screenshot_25240CF1-B081-4AC7-8008-82582CB37A31.png](https://github.com/likevanilla/likevanilla.github.io/bolb/main/_posts/ReactNative/chapter3/simulator_screen5.jpg?raw=true)
+![simulator_screenshot_25240CF1-B081-4AC7-8008-82582CB37A31.png](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen5.jpg?raw=true)
 
 JSX에서 null이나 undefined를 반환하는 경우가 있는데
 
@@ -170,9 +170,9 @@ import App from './src/App';
 export default App;
 ```
 
-![simulator_screenshot_9534485A-8553-4D5D-B9B6-57A273120D0D.png](https://github.com/likevanilla/likevanilla.github.io/bolb/main/_posts/ReactNative/chapter3/simulator_screen6.jpg?raw=true)
+![simulator_screenshot_9534485A-8553-4D5D-B9B6-57A273120D0D.png](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen6.jpg?raw=true)
 
-![simulator_screenshot_A75645A4-93C6-4E59-B119-6BE2514D0AC1.png](https://github.com/likevanilla/likevanilla.github.io/bolb/main/_posts/ReactNative/chapter3/simulator_screen7.jpg?raw=true)
+![simulator_screenshot_A75645A4-93C6-4E59-B119-6BE2514D0AC1.png](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen7.jpg?raw=true)
 
 Button 컴포넌트의 color 속성은 iOS와 안드로이드에서 차이가 있음. (Button 외에도)
 
@@ -234,9 +234,9 @@ export default App;
 
 ```
 
-![simulator_screenshot_A2F02520-1F3F-4DAA-AD06-801CF65DF13E.png](https://github.com/likevanilla/likevanilla.github.io/bolb/main/_posts/ReactNative/chapter3/simulator_screen8.jpg?raw=true)
+![simulator_screenshot_A2F02520-1F3F-4DAA-AD06-801CF65DF13E.png](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen8.jpg?raw=true)
 
-![simulator_screenshot_855614F6-BC7A-4AB1-96DE-79BD062791F4.png](https://github.com/likevanilla/likevanilla.github.io/bolb/main/_posts/ReactNative/chapter3/simulator_screen9.jpg?raw=true)
+![simulator_screenshot_855614F6-BC7A-4AB1-96DE-79BD062791F4.png](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen9.jpg?raw=true)
 
 ### props
 
@@ -264,7 +264,7 @@ const MyButton = (props) => {
   return (...)
 ```
 
-![image.png](https://github.com/likevanilla/likevanilla.github.io/bolb/main/_posts/ReactNative/chapter3/terminal_screen1.jpg?raw=true)
+![image.png](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/terminal_screen1.jpg?raw=true)
 
 ```jsx
 // src/components/MyButton.js
@@ -307,9 +307,9 @@ const App = () => {
 };
 ```
 
-![simulator_screenshot_42A84ED9-563B-437A-AFFD-BCB9D3F817D9.png](https://github.com/likevanilla/likevanilla.github.io/bolb/main/_posts/ReactNative/chapter3/simulator_screen10.jpg?raw=true)
+![simulator_screenshot_42A84ED9-563B-437A-AFFD-BCB9D3F817D9.png](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen10.jpg?raw=true)
 
-![simulator_screenshot_13F0EE4B-5485-4E62-8ED8-1723C0D6F0A9.png](https://github.com/likevanilla/likevanilla.github.io/bolb/main/_posts/ReactNative/chapter3/simulator_screen11.jpg?raw=true)
+![simulator_screenshot_13F0EE4B-5485-4E62-8ED8-1723C0D6F0A9.png](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen11.jpg?raw=true)
 
 왜 children props가 출력이 되는지 모르겠어요…
 
@@ -375,9 +375,9 @@ export default Counter;
 
 ```
 
-![simulator_screenshot_2588A017-9EB3-41E7-888E-B1B55532972F.png](https://github.com/likevanilla/likevanilla.github.io/bolb/main/_posts/ReactNative/chapter3/simulator_screen12.jpg?raw=true)
+![simulator_screenshot_2588A017-9EB3-41E7-888E-B1B55532972F.png](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen12.jpg?raw=true)
 
-![simulator_screenshot_61FA6B13-62AB-4864-BF0C-C72B053E7663.png](https://github.com/likevanilla/likevanilla.github.io/bolb/main/_posts/ReactNative/chapter3/simulator_screen13.jpg?raw=true)
+![simulator_screenshot_61FA6B13-62AB-4864-BF0C-C72B053E7663.png](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen13.jpg?raw=true)
 
 ```jsx
 // Double
@@ -408,7 +408,7 @@ const Counter = () => {
 };
 ```
 
-![image.png](https://github.com/likevanilla/likevanilla.github.io/bolb/main/_posts/ReactNative/chapter3/terminal_screen2.jpg?raw=true)
+![image.png](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/terminal_screen2.jpg?raw=true)
 
 ```jsx
 // src/components/EventButton.js
