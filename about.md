@@ -13,7 +13,7 @@ redirect_from:
 
 <!--author-->
 
-현재 [성공회대학교](https://skhu.ac.kr) 2학년 재학 중인 21학번 이정혁입니당
+현재 [성공회대학교](https://skhu.ac.kr) 3학년 재학 중인 21학번 이정혁입니당
 
 <!--
 ## Hydejack
