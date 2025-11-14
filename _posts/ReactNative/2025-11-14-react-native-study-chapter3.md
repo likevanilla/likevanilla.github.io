@@ -19,7 +19,7 @@ last_modified_at: 2025-11-14
 
 개발환경 구축하는 과정에 제대로 되지 않는 부분들도 있고 결국 해내지 못한 부분들이 있었다..
 
-처음 nvm 설치가 막혀서 
+처음 nvm 설치가 막혀서
 
 https://juntcom.tistory.com/222
 
@@ -27,15 +27,15 @@ https://juntcom.tistory.com/222
 
 안드로이드는 결국 개발환경 구축 실패함.. 일단 IOS로만 실습 해보기
 
-
 ### 컴포넌트
+
 컴포넌트란 재사용할 수 있는 조립 블록으로 화면에 나타나는 UI 요소를 말한다!
 
 View는 div와 비슷한 역할을 하는 컴포넌트
 
 Fragment 컴포넌트는 그냥 아무런 기능 없이 하나의 부모로 나머지 요소들을 감싸서 반환할 때 사용하면 될듯
 
-근데 얘는 `import {Fragment} from react` 해줘야돼서 귀찮으니까 그냥 
+근데 얘는 `import {Fragment} from react` 해줘야돼서 귀찮으니까 그냥
 
 `import React from react`하고 `<> </>` 이렇게 빈 괄호로 표현해도 됨
 
@@ -68,9 +68,15 @@ export default function App() {
 }
 ```
 
-![simulator_screenshot_304F1D8A-F9C5-4A2F-ADBB-CC87527ECAA5.png](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen2.jpg?raw=true)
+<img 
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen2.jpg?raw=true"
+  style="width: 50%;"
+/>
 
-![name 값을 pudding으로 바꿈](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen3.jpg?raw=true)
+<img 
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen3.jpg?raw=true"
+  style="width: 50%;"
+/>
 
 name 값을 pudding으로 바꿈
 
@@ -88,7 +94,10 @@ export default function App() {
 }
 ```
 
-![참 값을 pudding으로 둬서 pudding이 나와버리는 모습ㅋㅋ](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen4.jpg?raw=true)
+<img 
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen4.jpg?raw=true"
+  style="width: 50%;"
+/>
 
 참 값을 pudding으로 둬서 pudding이 나와버리는 모습ㅋㅋ
 
@@ -97,10 +106,10 @@ export default function App() {
   const name = "Jeonghyuk";
   return (
     <View style={styles.container}>
-      {name === 'Jeonghyuk' && (
+      {name === "Jeonghyuk" && (
         <Text style={styles.text}>My name is Jeonghyuk</Text>
       )}
-      {name !== 'Jeonghyuk' && (
+      {name !== "Jeonghyuk" && (
         <Text style={styles.text}>My name is not Jeonghyuk</Text>
       )}
       <StatusBar style="auto" />
@@ -109,7 +118,10 @@ export default function App() {
 }
 ```
 
-![simulator_screenshot_25240CF1-B081-4AC7-8008-82582CB37A31.png](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen5.jpg?raw=true)
+<img 
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen5.jpg?raw=true"
+  style="width: 50%;"
+/>
 
 JSX에서 null이나 undefined를 반환하는 경우가 있는데
 
@@ -132,7 +144,7 @@ JSX에서 null이나 undefined를 반환하는 경우가 있는데
 ### 주석 사용법
 
 - `{/* */}`
-- 태그 안에서는 // 또는 /* */
+- 태그 안에서는 // 또는 /\* \*/
 
 단축키 : Command + /
 
@@ -173,9 +185,15 @@ import App from './src/App';
 export default App;
 ```
 
-![simulator_screenshot_9534485A-8553-4D5D-B9B6-57A273120D0D.png](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen6.jpg?raw=true)
+<img 
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen6.jpg?raw=true"
+  style="width: 50%;"
+/>
 
-![simulator_screenshot_A75645A4-93C6-4E59-B119-6BE2514D0AC1.png](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen7.jpg?raw=true)
+<img 
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen7.jpg?raw=true"
+  style="width: 50%;"
+/>
 
 Button 컴포넌트의 color 속성은 iOS와 안드로이드에서 차이가 있음. (Button 외에도)
 
@@ -237,9 +255,15 @@ export default App;
 
 ```
 
-![simulator_screenshot_A2F02520-1F3F-4DAA-AD06-801CF65DF13E.png](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen8.jpg?raw=true)
+<img 
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen8.jpg?raw=true"
+  style="width: 50%;"
+/>
 
-![simulator_screenshot_855614F6-BC7A-4AB1-96DE-79BD062791F4.png](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen9.jpg?raw=true)
+<img 
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen9.jpg?raw=true"
+  style="width: 50%;"
+/>
 
 ### props
 
@@ -267,15 +291,17 @@ const MyButton = (props) => {
   return (...)
 ```
 
-![image.png](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/terminal_screen1.jpg?raw=true)
+<img 
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/terminal_screen1.jpg?raw=true"
+  style="width: 50%;"
+/>
 
 ```jsx
 // src/components/MyButton.js
 const MyButton = (props) => {
   return (
     <TouchableOpacity
-      style=
-      {{
+      style={{
         fontSize: 24,
         backgroundColor: "#3498db",
         padding: 16,
@@ -283,7 +309,7 @@ const MyButton = (props) => {
         borderRadius: 8,
       }}
       onPress={() => alert("Click!!!")}
-      >
+    >
       <Text style={{ color: "white", fontSize: 24 }}>
         {props.children || props.title}
       </Text>
@@ -310,9 +336,15 @@ const App = () => {
 };
 ```
 
-![simulator_screenshot_42A84ED9-563B-437A-AFFD-BCB9D3F817D9.png](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen10.jpg?raw=true)
+<img 
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen10.jpg?raw=true"
+  style="width: 50%;"
+/>
 
-![simulator_screenshot_13F0EE4B-5485-4E62-8ED8-1723C0D6F0A9.png](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen11.jpg?raw=true)
+<img 
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen11.jpg?raw=true"
+  style="width: 50%;"
+/>
 
 왜 children props가 출력이 되는지 모르겠어요…
 
@@ -378,9 +410,15 @@ export default Counter;
 
 ```
 
-![simulator_screenshot_2588A017-9EB3-41E7-888E-B1B55532972F.png](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen12.jpg?raw=true)
+<img 
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen12.jpg?raw=true"
+  style="width: 50%;"
+/>
 
-![simulator_screenshot_61FA6B13-62AB-4864-BF0C-C72B053E7663.png](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen13.jpg?raw=true)
+<img 
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen13.jpg?raw=true"
+  style="width: 50%;"
+/>
 
 ```jsx
 // Double
@@ -411,7 +449,10 @@ const Counter = () => {
 };
 ```
 
-![image.png](https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/terminal_screen2.jpg?raw=true)
+<img 
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/terminal_screen2.jpg?raw=true"
+  style="width: 50%;"
+/>
 
 ```jsx
 // src/components/EventButton.js
@@ -478,17 +519,17 @@ Pressable 컴포넌트는 TouchableOpacity 컴포넌트를 대체함. Pressable�
 **PressRect**는 버튼을 클릭했을 때 해당 버튼이 동작하지 않게 하기 위해 버튼을 누른 상태에서 얼마나 멀어져야 벗어났다고 판단하는지에 대한 영역
 
 ```jsx
-import React from 'react';
-import { View, Text, Pressable } from 'react-native';
+import React from "react";
+import { View, Text, Pressable } from "react-native";
 
 const Button = (props) => {
   return (
     <Pressable
-      style={{ padding: 10, backgroundColor: '#1abc9c' }}
-      onPressIn={() => console.log('Press In')}
-      onPressOut={() => console.log('Press Out')}
-      onPress={() => console.log('Press')}
-      onLongPress={() => console.log('Long Press')}
+      style={{ padding: 10, backgroundColor: "#1abc9c" }}
+      onPressIn={() => console.log("Press In")}
+      onPressOut={() => console.log("Press Out")}
+      onPress={() => console.log("Press")}
+      onLongPress={() => console.log("Long Press")}
       delayLongPress={3000}
       pressRetentionOffset={{ bottom: 50, left: 50, right: 50, top: 50 }}
       hitSlop={50}
@@ -503,10 +544,11 @@ const App = () => {
     <View
       style={{
         flex: 1,
-        justifyContent: 'center',
-        backgroundColor: '#fff',
-        alignItems: 'center',
-      }}>
+        justifyContent: "center",
+        backgroundColor: "#fff",
+        alignItems: "center",
+      }}
+    >
       <Button title="Pressable" />
     </View>
   );
@@ -514,7 +556,6 @@ const App = () => {
 
 export default App;
 ```
-
 
 > 다음 장부터는 좀 순서있고 조잡하지 않게 작성해야겠다..
 > velog로 넘어갈까도 심각하게 고민해보자.. 너무 힘들다
