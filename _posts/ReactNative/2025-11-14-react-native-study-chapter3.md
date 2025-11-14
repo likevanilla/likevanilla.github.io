@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[React Native] 리액트 네이티브 정복하기! - 1"
-description: " - [처음부터 배우는 리액트 네이티브] Chapter 3 컴포넌트"
+description: " [처음부터 배우는 리액트 네이티브] Chapter 3 컴포넌트"
 
 categories: ReactNative
 permalink: "/:categories/:year/:month/:day/:title"
@@ -65,9 +65,9 @@ export default function App() {
 }
 ```
 
-![simulator_screenshot_304F1D8A-F9C5-4A2F-ADBB-CC87527ECAA5.png](attachment:32358aa6-5fa2-4068-b16e-3585e15c5b19:simulator_screenshot_304F1D8A-F9C5-4A2F-ADBB-CC87527ECAA5.png)
+![simulator_screenshot_304F1D8A-F9C5-4A2F-ADBB-CC87527ECAA5.png](https://github.com/likevanilla/likevanilla.github.io/bolb/main/_posts/ReactNative/chapter3/simulator_screen2.jpg?raw=true)
 
-![name 값을 pudding으로 바꿈](attachment:c0632750-1c22-4719-9c5d-42a4fdb04804:simulator_screenshot_A38D9DF2-8393-4677-B7AC-63C98852858F.png)
+![name 값을 pudding으로 바꿈](https://github.com/likevanilla/likevanilla.github.io/bolb/main/_posts/ReactNative/chapter3/simulator_screen3.jpg?raw=true)
 
 name 값을 pudding으로 바꿈
 
@@ -85,7 +85,7 @@ export default function App() {
 }
 ```
 
-![참 값을 pudding으로 둬서 pudding이 나와버리는 모습ㅋㅋ](attachment:69e25008-4265-4458-87e0-09572994bbca:simulator_screenshot_C28FC8DD-FDA1-4A0E-A475-312F8E14383F.png)
+![참 값을 pudding으로 둬서 pudding이 나와버리는 모습ㅋㅋ](https://github.com/likevanilla/likevanilla.github.io/bolb/main/_posts/ReactNative/chapter3/simulator_screen4.jpg?raw=true)
 
 참 값을 pudding으로 둬서 pudding이 나와버리는 모습ㅋㅋ
 
@@ -106,7 +106,7 @@ export default function App() {
 }
 ```
 
-![simulator_screenshot_25240CF1-B081-4AC7-8008-82582CB37A31.png](attachment:25e6b05e-c013-4fc9-87de-4d6ee26760b0:simulator_screenshot_25240CF1-B081-4AC7-8008-82582CB37A31.png)
+![simulator_screenshot_25240CF1-B081-4AC7-8008-82582CB37A31.png](https://github.com/likevanilla/likevanilla.github.io/bolb/main/_posts/ReactNative/chapter3/simulator_screen5.jpg?raw=true)
 
 JSX에서 null이나 undefined를 반환하는 경우가 있는데
 
@@ -170,9 +170,9 @@ import App from './src/App';
 export default App;
 ```
 
-![simulator_screenshot_9534485A-8553-4D5D-B9B6-57A273120D0D.png](attachment:cbf3215c-c373-4ab8-89fb-89bbeccfa731:simulator_screenshot_9534485A-8553-4D5D-B9B6-57A273120D0D.png)
+![simulator_screenshot_9534485A-8553-4D5D-B9B6-57A273120D0D.png](https://github.com/likevanilla/likevanilla.github.io/bolb/main/_posts/ReactNative/chapter3/simulator_screen6.jpg?raw=true)
 
-![simulator_screenshot_A75645A4-93C6-4E59-B119-6BE2514D0AC1.png](attachment:e9f936d6-523f-4ea4-a8ed-923b844cc55d:simulator_screenshot_A75645A4-93C6-4E59-B119-6BE2514D0AC1.png)
+![simulator_screenshot_A75645A4-93C6-4E59-B119-6BE2514D0AC1.png](https://github.com/likevanilla/likevanilla.github.io/bolb/main/_posts/ReactNative/chapter3/simulator_screen7.jpg?raw=true)
 
 Button 컴포넌트의 color 속성은 iOS와 안드로이드에서 차이가 있음. (Button 외에도)
 
@@ -234,9 +234,9 @@ export default App;
 
 ```
 
-![simulator_screenshot_A2F02520-1F3F-4DAA-AD06-801CF65DF13E.png](attachment:cc52201f-f071-4edb-b8a3-5b7191ad1b7d:simulator_screenshot_A2F02520-1F3F-4DAA-AD06-801CF65DF13E.png)
+![simulator_screenshot_A2F02520-1F3F-4DAA-AD06-801CF65DF13E.png](https://github.com/likevanilla/likevanilla.github.io/bolb/main/_posts/ReactNative/chapter3/simulator_screen8.jpg?raw=true)
 
-![simulator_screenshot_855614F6-BC7A-4AB1-96DE-79BD062791F4.png](attachment:ec0ad8fe-6053-4f03-9866-94c74246c5d7:simulator_screenshot_855614F6-BC7A-4AB1-96DE-79BD062791F4.png)
+![simulator_screenshot_855614F6-BC7A-4AB1-96DE-79BD062791F4.png](https://github.com/likevanilla/likevanilla.github.io/bolb/main/_posts/ReactNative/chapter3/simulator_screen9.jpg?raw=true)
 
 ### props
 
@@ -264,7 +264,7 @@ const MyButton = (props) => {
   return (...)
 ```
 
-![image.png](attachment:6ac1c60c-4f95-4066-a518-3234b81181de:image.png)
+![image.png](https://github.com/likevanilla/likevanilla.github.io/bolb/main/_posts/ReactNative/chapter3/terminal_screen1.jpg?raw=true)
 
 ```jsx
 // src/components/MyButton.js
@@ -307,9 +307,9 @@ const App = () => {
 };
 ```
 
-![simulator_screenshot_42A84ED9-563B-437A-AFFD-BCB9D3F817D9.png](attachment:4c1caa08-94e5-43fb-a1aa-99ec7c42ceec:simulator_screenshot_42A84ED9-563B-437A-AFFD-BCB9D3F817D9.png)
+![simulator_screenshot_42A84ED9-563B-437A-AFFD-BCB9D3F817D9.png](https://github.com/likevanilla/likevanilla.github.io/bolb/main/_posts/ReactNative/chapter3/simulator_screen10.jpg?raw=true)
 
-![simulator_screenshot_13F0EE4B-5485-4E62-8ED8-1723C0D6F0A9.png](attachment:d2d26ac9-8332-4d90-81ab-fc8cb6aa3007:simulator_screenshot_13F0EE4B-5485-4E62-8ED8-1723C0D6F0A9.png)
+![simulator_screenshot_13F0EE4B-5485-4E62-8ED8-1723C0D6F0A9.png](https://github.com/likevanilla/likevanilla.github.io/bolb/main/_posts/ReactNative/chapter3/simulator_screen11.jpg?raw=true)
 
 왜 children props가 출력이 되는지 모르겠어요…
 
@@ -375,9 +375,9 @@ export default Counter;
 
 ```
 
-![simulator_screenshot_2588A017-9EB3-41E7-888E-B1B55532972F.png](attachment:4da36623-e8c4-469b-8bf7-a121df963164:simulator_screenshot_2588A017-9EB3-41E7-888E-B1B55532972F.png)
+![simulator_screenshot_2588A017-9EB3-41E7-888E-B1B55532972F.png](https://github.com/likevanilla/likevanilla.github.io/bolb/main/_posts/ReactNative/chapter3/simulator_screen12.jpg?raw=true)
 
-![simulator_screenshot_61FA6B13-62AB-4864-BF0C-C72B053E7663.png](attachment:49b1924a-89a1-4f79-bc0e-dae164507785:simulator_screenshot_61FA6B13-62AB-4864-BF0C-C72B053E7663.png)
+![simulator_screenshot_61FA6B13-62AB-4864-BF0C-C72B053E7663.png](https://github.com/likevanilla/likevanilla.github.io/bolb/main/_posts/ReactNative/chapter3/simulator_screen13.jpg?raw=true)
 
 ```jsx
 // Double
@@ -408,7 +408,7 @@ const Counter = () => {
 };
 ```
 
-![image.png](attachment:b633e0d0-1517-40ca-8056-989d40d90f33:image.png)
+![image.png](https://github.com/likevanilla/likevanilla.github.io/bolb/main/_posts/ReactNative/chapter3/terminal_screen2.jpg?raw=true)
 
 ```jsx
 // src/components/EventButton.js
@@ -511,3 +511,7 @@ const App = () => {
 
 export default App;
 ```
+
+
+> 다음 장부터는 좀 순서있고 조잡하지 않게 작성해야겠다..
+> velog로 넘어갈까도 심각하게 고민해보자.. 너무 힘들다
