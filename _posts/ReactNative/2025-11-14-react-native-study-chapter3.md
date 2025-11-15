@@ -46,7 +46,7 @@ Fragment 컴포넌트의 단축 문법임!
 그저 자식들을 그룹화 원툴(?)
 
 <img 
-  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/reactnative/chapter3/simulator_screen1.jpg?raw=true"
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/simulator_screen1.jpg?raw=true"
   style="width: 50%;"
 />
 
@@ -292,7 +292,7 @@ const MyButton = (props) => {
 ```
 
 <img 
-  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/terminal_screen1.jpg?raw=true"
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/terminal_screen1.png?raw=true"
   style="width: 50%;"
 />
 
@@ -450,7 +450,7 @@ const Counter = () => {
 ```
 
 <img 
-  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/terminal_screen2.jpg?raw=true"
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter3/terminal_screen2.png?raw=true"
   style="width: 50%;"
 />
 
