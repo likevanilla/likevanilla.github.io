@@ -88,6 +88,11 @@ useEffect(() => {
 }, []);
 ```
 
+<img 
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter6/log2.png?raw=true"
+  style="width: 50%;"
+/>
+
 #### 언마운트될 때 실행하기
 
 **언마운트**는 컴포넌트가 실제 DOM에서 제거되는 것을 말해요.
@@ -100,6 +105,11 @@ useEffect(() => {
     return () => console.log('\n===== Form Component UnMount ====\n');
 }, []);
 ```
+
+<img 
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter6/log3.png?raw=true"
+  style="width: 50%;"
+/>
 
 ### useRef
 
@@ -129,3 +139,59 @@ useMemo(() => {}, []);
 첫 번째 파라미터에는 함수를 전달하고, 두 번째 파라미터에는 함수 실행 조건을 배열로 전달하면 지정된 값에 변화가 있는 경우에만 함수가 호출돼요.
 
 useMemo를 이용하면 계산하는 값에 변화가 있는 경우에만 함수가 호출되므로 중복되는 불필요한 연산을 제거할 수 있어요.
+
+```jsx
+const list = ['JavaScript', 'Expo', 'Expo', 'React Native'];
+
+// useMemo로 최적화 전
+const _onPress = () => {
+    setLength(getLength(text));
+    ++idx;
+    if (idx < list.length) setText(list[idx]);
+};
+
+// 최적화 후
+const _onPress = () => {
+    ++idx;
+    if (idx < list.length) setText(list[idx]);
+};
+const length = useMemo(() => getLength(text), [text]);
+```
+
+코드를 이렇게 최적화를 하면 동일한 문자열인 Expo를 다시 계산하지 않고, 배열의 마지막 값 이후에는 문자열의 변화가 없기 때문에 더 이상 getLength 함수를 호출하지 않아요.
+
+특정 값에 변화가 있는 경우에만 함수를 실행하고, 값이 변하지 않으면 이전에 연산했던 결과를 이용해 중복된 연산을 방지하는 방식으로도 사용해서 성능을 최적화할 수 있어요.
+
+### 커스텀 Hooks 만들기
+
+리액트 네이티브에서는 네트워크 통신을 위해 **Fetch**와 **XMLHttpRequest**를 제공하고, 추가적으로 **WebSocket**도 지원해요.
+
+교재에서는 useFetch라는 이름의 Hook을 만들어서 실습을 진행했어요.
+
+Dogs API를 이용해서 무작위로 강아지 사진을 받아오는 컴포넌트를 만들었어요.
+
+API 요청을 보내는 비동기 동작에서는 선행된 작업이 마무리되기 전에 추가적인 요청이 들어오지 않도록 화면을 구성하는 것이 좋다고 해요.
+
+Hook도 컴포넌트와 마찬가지로 자주 사용되는 부분을 분리하면 코드가 깔끔해질 뿐만 아니라 여러 곳에서 재사용 가능하다는 장점이 있어요.
+
+Hooks는 클래스형 컴포넌트를 사용하지 않아도 함수형 컴포넌트에서 상태를 관리하고 다양한 상황에 맞춰 작업할 수 있게 해주는 중요한 기능이에요.
+
+>리액트를 배운지 반년이 넘어가고 있지만 커스텀 Hook을 만드는 것에 대해서는 아직 감이 잡히지 않는 것 같아요ㅜ.ㅜ 
+>계속 리액트 프로젝트들을 진행하다보면 깨닫는 부분이 있겠죠?
+
+다음 나오는 이미지들은 실습 결과를 저장한 사진들이에요. 블로그 파일에는 저장을 했는데 그냥 버리기는 아까워서 올려요ㅎㅎ
+
+<img 
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter6/log1.png?raw=true"
+  style="width: 50%;"
+/>
+
+<img 
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter6/simulator_screen1.png?raw=true"
+  style="width: 50%;"
+/>
+
+<img 
+  src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter6/simulator_screen2.png?raw=true"
+  style="width: 50%;"
+/>
