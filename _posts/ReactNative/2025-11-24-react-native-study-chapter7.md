@@ -168,7 +168,7 @@ const App = () => {
 ```
 
 <img
-    src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter7/simulator_screen2.png?raw=true"
+    src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter7/simulator_screen3.png?raw=true"
     style="width: 50%;" 
 />
 
