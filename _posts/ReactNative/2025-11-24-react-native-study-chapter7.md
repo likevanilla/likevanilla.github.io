@@ -167,8 +167,9 @@ const App = () => {
 ...
 ```
 
-<img 
-    src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_post/ReactNative/chapter7/simulator_screen3.png?raw=ture" style="width:50%;" 
+<img
+    src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter7/simulator_screen2.png?raw=true"
+    style="width: 50%;" 
 />
 
 Provider 컴포넌트로부터 value를 전달받는 하위 컴포넌트의 수에는 제한이 없어요.
@@ -176,7 +177,7 @@ Provider 컴포넌트로부터 value를 전달받는 하위 컴포넌트의 수�
 Consumer 컴포넌트는 가장 가까운 Provider 컴포넌트에서 값을 받으므로, 자식 컴포넌트 중 Provider 컴포넌트가 있다면 그 이후의 자식 컴포넌트는 중간에 있는 Provider 컴포넌트가 전달하는 값을 사용해요.
 
 <img 
-    src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_post/ReactNative/chapter7/image1.png?raw=ture" style="width:50%;" 
+    src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter7/image1.png?raw=ture" style="width:50%;" 
 />
 
 실습한 내용에서 Provider와 Consumer의 관계에서 결국 어떤 value가 출력이 되는지를 gemini pro에게 물어봐서 그림을 받아 왔어요.
