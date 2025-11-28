@@ -347,7 +347,7 @@ Home 화면의 배경색을 흰색으로 설정하면 다음과 같은 모습이
 ...
     <Stack.Navigator
       initialRouteName="Home"
-      screenOptions=\{\{ cardStyle: { backgroundColor: "#ffffff" } \}\}
+      screenOptions=(여는 중괄호 2개) cardStyle: { backgroundColor: "#ffffff" } (닫는 중괄호 2개)
     >
 ...
 ```
