@@ -186,4 +186,67 @@ App.js에 있는 Provider보다 User.js에 있는 Provider가 Consumer에게 더
 
 Provider 컴포넌트를 사용할 때 반드시 value를 지정해야 한다는 점과 Consumer 컴포넌트는 가장 가까운 Provider 컴포넌트가 전달하는 값을 이용한다는 점을 알 수 있어요.
 
-#### Context 수정하기
+### useContext
+
+**useContext** 함수는 Consumer 컴포넌트의 자식 함수로 전달되던 값과 동일한 데이터를 반환하므로 Consumer 컴포넌트를 사용하지 않고 Context의 내용을 사용할 수 있게 해줘요.
+
+```jsx
+// src/components/User.js
+
+import React, { useContext } from "react";
+import styled from "styled-components";
+import UserContext from "../contexts/User";
+...
+const User = () => {
+  const { user } = useContext(UserContext);
+  return <StyledText>Name: {user.name}</StyledText>;
+};
+```
+
+```jsx
+// src/components/Input.js
+import React, { useState, useContext } from "react";
+import styled from "styled-components";
+import UserContext from "../contexts/User";
+
+...
+
+const Input = () => {
+  const [name, setName] = useState("");
+  const { dispatch } = useContext(UserContext);
+
+  return (
+    <StyledInput
+      value={name}
+      onChangeText={(text) => setName(text)}
+      onSubmitEditing={() => {
+        dispatch(name);
+        setName("");
+      }}
+      placeholder="Enter a name..."
+      autoCapitalize="none"
+      autoCorrect={false}
+      returnKeyType="done"
+    />
+  );
+};
+
+export default Input;
+```
+
+코드가 전체적으로 깔끔해졌어요.
+
+<img
+    src="https://github.com/likevanilla/likevanilla.github.io/blob/main/_posts/ReactNative/chapter7/simulator_screen4.png?raw=true"
+    style="width: 50%;" 
+/>
+
+### 마치며
+
+이렇게 Context API를 이용하면 편하고 간결하게 상태를 공유하여 사용할 수 있어요.
+
+상태를 전달해야 하는 관계의 구조가 간단하다면 굳이 Context API를 사용할 필요가 없어요.
+
+Context API는 프로젝트의 구조가 복잡하고 많은 컴포넌트가 이용하는 데이터를 전역적으로 관리할 때 사용하는 것이 좋아요.
+
+>저는 이정도 실습으로 제대로 감을 잡지는 못한 것 같아요.. 나중에 더 이해가 잘 되는 실습을 진행하면 좋을 것 같아용
