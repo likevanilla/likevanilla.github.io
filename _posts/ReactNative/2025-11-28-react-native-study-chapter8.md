@@ -341,17 +341,16 @@ Home 화면의 배경색을 흰색으로 설정하면 다음과 같은 모습이
 
 스타일에 flex: 1을 설정하는 방법과 리액트 내비게이션의 설정을 수정하면 해결할 수 있어요.
 
-{% raw %}
+
 ```jsx
 // src/navigations/Stack.js
 ...
     <Stack.Navigator
       initialRouteName="Home"
-      screenOptions={{ cardStyle: { backgroundColor: "#ffffff" } }}
+      screenOptions=\{\{ cardStyle: { backgroundColor: "#ffffff" } \}\}
     >
 ...
 ```
-{% endraw %}
 
 
 **cardStyle**을 이용하면 스택 내비게이션의 화면 배경색을 수정할 수 있어요.
