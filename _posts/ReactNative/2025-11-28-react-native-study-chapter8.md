@@ -352,6 +352,8 @@ Home 화면의 배경색을 흰색으로 설정하면 다음과 같은 모습이
 ...
 ```
 
+업로드 때 오류로 인해서 저렇게 표시합니다..
+
 
 **cardStyle**을 이용하면 스택 내비게이션의 화면 배경색을 수정할 수 있어요.
 
@@ -395,7 +397,7 @@ Navigator 컴포넌트의 **screenOptions**에 설정을 하면 화면 전체에
 ...
     <Stack.Navigator
       initialRouteName="Home"
-      screenOptions={{
+      screenOptions=(여는 중괄호 2개)
         cardStyle: { backgroundColor: "#ffffff" },
         headerStyle: {
           height: 110,
@@ -404,7 +406,7 @@ Navigator 컴포넌트의 **screenOptions**에 설정을 하면 화면 전체에
           borderBottomColor: "#34495e",
         },
         headerTitleStyle: { color: "#ffffff", fontSize: 24 },
-      }}
+      (닫는 중괄호 2개)
     >
 ...
 ```
@@ -447,7 +449,7 @@ import { MaterialCommunityIcons } from "@expo/vector-icons";
 ...
     <Stack.Navigator
       initialRouteName="Home"
-      screenOptions={{
+      screenOptions=(여는 중괄호 2개)
         cardStyle: { backgroundColor: "#ffffff" },
         headerStyle: {
           height: 110,
@@ -460,7 +462,7 @@ import { MaterialCommunityIcons } from "@expo/vector-icons";
         headerTitle: ({ style }) => (
           <MaterialCommunityIcons name="react" style={style} />
         ),
-      }}
+      (닫는 중괄호 2개)
     >
 ...
 ```
@@ -885,7 +887,7 @@ const TabNavigation = () => {
   return (
     <Tab.Navigator
       initialRouteName="Settings"
-      screenOptions={{
+      screenOptions=(여는 중괄호 2개)
         tabBarLabelPosition: "beside-icon",
         tabBarItemStyle: {
           backgroundColor: "#54b7f9",
@@ -894,7 +896,7 @@ const TabNavigation = () => {
         },
         tabBarActiveTintColor: "#ffffff",
         tabBarInactiveTintColor: "#cfcfcf",
-      }}
+      (닫는 중괄호 2개)
     >
       <Tab.Screen
         name="Mail"
