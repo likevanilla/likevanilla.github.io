@@ -18,6 +18,11 @@ last_modified_at: 2025-11-28
 
 [처음 배우는 리액트 네이티브] 책으로 리액트 네이티브 공부하기!
 
+### 들어가기 전..
+
+> `Liquid syntax error`라는 중괄호 2개가 열리면 뭔가 동작되는 함수가 있나봐요. 그래서 자꾸 에러가 떠서 예제 코드에서 중괄호 2개가 열리고 닫히는 부분을 텍스트로 대체를 했어요. 다음 게시글에서는 해결법을 찾고 글을 작성 해볼게요.
+> {:.lead}
+
 ### 리액트 내비게이션
 
 모바일 앱은 하나의 화면으로 구성되는 경우가 거의 없기 때문에 내비게이션이 가장 중요한 기능 중 하나라고 할 수 있어요.
@@ -377,7 +382,7 @@ Navigator 컴포넌트의 **screenOptions**에 설정을 하면 화면 전체에
   <Stack.Screen
     name="List"
     component={List}
-    options={{ headerTitle: "List Screen" }}
+    options=(여는 중괄호 2개) headerTitle: "List Screen" (닫는 중괄호 2개)
   />
 ...
 ```
@@ -497,11 +502,11 @@ vector-ions는 Expo 프로젝트에서 기본적으로 설치되는 라이브러
 <Stack.Screen
   name="List"
   component={List}
-  options={{
+  options=(여는 중괄호 2개)
     headerTitle: "List Screen",
     headerBackButtonDisplayMode: "default",
     headerBackTitle: "Prev",
-  }}
+  (닫는 중괄호 2개)
 />
 ...
 ```
@@ -524,13 +529,13 @@ headerTintColor에 지정된 색은 버튼뿐만 아니라 헤더의 타이틀�
 <Stack.Screen
   name="List"
   component={List}
-  options={{
+  options=(여는 중괄호 2개)
     headerTitle: "List Screen",
     headerBackButtonDisplayMode: "default",
     headerBackTitle: "Prev",
     headerTitleStyle: { fontSize: 24 },
     headerTintColor: "#e74c3c",
-  }}
+  (닫는 중괄호 2개)
 />
 ...
 ```
@@ -574,7 +579,7 @@ const Item = ({ navigation, route }) => {
         <MaterialCommunityIcons
           name="keyboard-backspace"
           size={30}
-          style={{ marginLeft: 11 }}
+          style=(여는 중괄호 2개) marginLeft: 11 (닫는 중괄호 2개)
           color={tintColor}
           onPress={onPress}
         />
@@ -583,7 +588,7 @@ const Item = ({ navigation, route }) => {
         <MaterialCommunityIcons
           name="home-variant"
           size={30}
-          style={{ marginRight: 11 }}
+          style=(여는 중괄호 2개) marginRight: 11 (닫는 중괄호 2개)
           color={tintColor}
           onPress={() => navigation.popToTop()}
         />
@@ -754,23 +759,23 @@ const TabNavigation = () => {
       <Tab.Screen
         name="Mail"
         component={Mail}
-        options={{
+        options=(여는 중괄호 2개)
           tabBarIcon: (props) => TabIcon({ ...props, name: "email" }),
-        }}
+        (닫는 중괄호 2개)
       />
       <Tab.Screen
         name="Meet"
         component={Meet}
-        options={{
+        options=(여는 중괄호 2개)
           tabBarIcon: (props) => TabIcon({ ...props, name: "video" }),
-        }}
+        (닫는 중괄호 2개)
       />
       <Tab.Screen
         name="Settings"
         component={Settings}
-        options={{
+        options=(여는 중괄호 2개)
           tabBarIcon: (props) => TabIcon({ ...props, name: "settings" }),
-        }}
+        (닫는 중괄호 2개)
       />
     </Tab.Navigator>
   );
@@ -901,33 +906,33 @@ const TabNavigation = () => {
       <Tab.Screen
         name="Mail"
         component={Mail}
-        options={{
+        options=(여는 중괄호 2개)
           tabBarLabel: "Inbox",
           tabBarIcon: (props) =>
             TabIcon({
               ...props,
               name: props.focused ? "email" : "email-outline",
             }),
-        }}
+        (닫는 중괄호 2개)
       />
       <Tab.Screen
         name="Meet"
         component={Meet}
-        options={{
+        options=(여는 중괄호 2개)
           tabBarIcon: (props) =>
             TabIcon({
               ...props,
               name: props.focused ? "video" : "video-outline",
             }),
-        }}
+        (닫는 중괄호 2개)
       />
       <Tab.Screen
         name="Settings"
         component={Settings}
-        options={{
+        options=(여는 중괄호 2개)
           tabBarIcon: (props) =>
             TabIcon({ ...props, name: props.focused ? "cog" : "cog-outline" }),
-        }}
+        (닫는 중괄호 2개)
       />
     </Tab.Navigator>
   );
