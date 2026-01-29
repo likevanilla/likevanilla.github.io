@@ -102,10 +102,10 @@ lorem → 의미없는 영단어 생성 (lorem10 → 단어 10개)
 
 - text-문자 : 글자 크기 (sm, lg, xl, 9xl)
 - not-italic : 글자 기울임 안함
-- font-[문자 | 숫자]: 글자 굵기 (thin, normal, bold | 100 ~ 900)
+- font-[문자\|숫자]: 글자 굵기 (thin, normal, bold \| 100 ~ 900)
 - tracking-문자 : 글자 간격 (tighter, wide)
 - line-clamp-숫자 : 문단 끝 말 줄임 (1 ~ 6)
-- leading-[숫자 | 문자] : 줄 간격 (3, 10, loose)
+- leading-[숫자\|문자] : 줄 간격 (3, 10, loose)
     - 가장 적절한 라인 하이트는 1.5REM or 1.6REM
 - list-문자 : 목록 블릿(bullet) 표시하기 (disc(점), decimal(숫자), [square])
 - lsit-inside: 목록 bullet을 안쪽으로 넣기
