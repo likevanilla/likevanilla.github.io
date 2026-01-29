@@ -57,6 +57,8 @@ menu:
     url: /figma/
   - title: ReactNative
     url: /reactnative/
+  - title: TailwindCSS
+    url: /tailwindcss/
   #  - title:             Documentation
   #    url:               /docs/
   - title: About

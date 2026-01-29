@@ -13,7 +13,7 @@ redirect_from:
 
 <!--author-->
 
-현재 [성공회대학교](https://skhu.ac.kr) 3학년 재학 중인 21학번 이정혁입니당
+초보 프론트엔드 개발자 이정혁입니다 !
 
 <!--
 ## Hydejack
