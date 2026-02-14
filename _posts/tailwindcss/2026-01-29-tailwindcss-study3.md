@@ -84,3 +84,41 @@ last_modified_at: 2026-02-14
 
 - opacity: 0;
 - 존재도 하고 자리도 유지 = 투명
+---
+
+## Text Shadow
+
+TailwindCSS v3.4.1 에서는 텍스트 쉐도우 사용법이 없음 - 대괄호 안에 [text-shadow:]를 사용해야 함(커스텀)
+
+```html
+<div class="[text-shadow:5px_5px_0_orange]">Hello<div>
+<!-- x, y축으로 5px 이동, 퍼짐 0, orange 색상 -->
+```
+
+---
+
+## 기울기
+
+skew로 이미지의 기울기를 정할 수 있음 
+
+---
+
+## Translate
+
+```html
+    <div class="border-[4px] border-black size-[500px] relative">
+      <div
+        class="bg-pink-500 size-[200px] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
+      ></div>
+    </div>
+```
+
+- 부모 네모 안에 자식 네모를 정 가운데로 보내는 코드
+- translate로 자식 네모의 중심을 기준으로 이동
+
+---
+
+## Animation
+
+- TailwindCSS에서 지정된 애니메이션은 매우 제한적
+- 다양한 CSS 애니메이션을 적용하기 위해서는 CSS 파일에 CSS 키프레임 애니메이션을 만들고 html 클래스를 적용하면 가능
